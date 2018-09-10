@@ -47,6 +47,10 @@
 
 #pragma mark - 工具类
 #import "SynthesizeSingleton.h"
+#import "AppDelegteManager.h"
+#import "PhotoManager.h"
+
+
 
 #pragma mark - 第三方
 
@@ -84,6 +88,9 @@
 #import <UMAnalytics/MobClick.h>
 #import <UMCSecurityPlugins/SecurityEnvSDK/SecurityEnvSDK.h>
 #import "TZImagePickerController.h"
+#import "TZImageManager.h"
 #import "YYModel.h"
+#import "LNRefresh.h"
+
 
 #endif /* Header_h */

@@ -57,6 +57,38 @@
 		E5A5B43A21461CF6004AD72F /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B41F21461CF6004AD72F /* UIButton+EnlargeEdge.m */; };
 		E5A5B43D21462257004AD72F /* ToastViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B43C21462257004AD72F /* ToastViewManager.m */; };
 		E5A5B44121463846004AD72F /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B44021463846004AD72F /* NSString+Extension.m */; };
+		E5A5B444214639ED004AD72F /* AppDelegteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B443214639ED004AD72F /* AppDelegteManager.m */; };
+		E5A5B44721463C4B004AD72F /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B44621463C4B004AD72F /* PhotoManager.m */; };
+		E5A5B44C21463D09004AD72F /* post_originalimage_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B44B21463D09004AD72F /* post_originalimage_normal@2x.png */; };
+		E5A5B44E21463D11004AD72F /* post_originalimage_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B44D21463D11004AD72F /* post_originalimage_normal@3x.png */; };
+		E5A5B45021463D1D004AD72F /* post_originalimage_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B44F21463D1D004AD72F /* post_originalimage_selected@2x.png */; };
+		E5A5B45221463D24004AD72F /* post_originalimage_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B45121463D24004AD72F /* post_originalimage_selected@3x.png */; };
+		E5A5B45421463DAF004AD72F /* navi_shadow_1x6_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B45321463DAF004AD72F /* navi_shadow_1x6_@1x.png */; };
+		E5A5B45621463DB7004AD72F /* navi_shadow_1x6_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B45521463DB7004AD72F /* navi_shadow_1x6_@2x.png */; };
+		E5A5B45821463DBE004AD72F /* navi_shadow_1x6_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B45721463DBE004AD72F /* navi_shadow_1x6_@3x.png */; };
+		E5A5B45A21463DCE004AD72F /* navi_back_26x26_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B45921463DCE004AD72F /* navi_back_26x26_@1x.png */; };
+		E5A5B45C21463DD6004AD72F /* navi_back_26x26_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B45B21463DD6004AD72F /* navi_back_26x26_@2x.png */; };
+		E5A5B45E21463DDD004AD72F /* navi_back_26x26_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B45D21463DDD004AD72F /* navi_back_26x26_@3x.png */; };
+		E5A5B46021463DF5004AD72F /* navi_back_shadow_26x26_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B45F21463DF5004AD72F /* navi_back_shadow_26x26_@1x.png */; };
+		E5A5B46221463DFD004AD72F /* navi_back_shadow_26x26_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B46121463DFD004AD72F /* navi_back_shadow_26x26_@2x.png */; };
+		E5A5B46421463E03004AD72F /* navi_back_shadow_26x26_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B46321463E03004AD72F /* navi_back_shadow_26x26_@3x.png */; };
+		E5A5B46C21463FD1004AD72F /* DeviceID.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B46621463FD1004AD72F /* DeviceID.m */; };
+		E5A5B46D21463FD1004AD72F /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B46721463FD1004AD72F /* SAMKeychainQuery.m */; };
+		E5A5B46E21463FD1004AD72F /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B46B21463FD1004AD72F /* SAMKeychain.m */; };
+		E5A5B4782146404B004AD72F /* LXRefreshDIYHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B4722146404B004AD72F /* LXRefreshDIYHeader.m */; };
+		E5A5B4792146404B004AD72F /* YLoadingPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B4742146404B004AD72F /* YLoadingPanel.m */; };
+		E5A5B47A2146404B004AD72F /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B4752146404B004AD72F /* MMMaterialDesignSpinner.m */; };
+		E5A5B47B2146404B004AD72F /* LNHeaderDIYAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B4762146404B004AD72F /* LNHeaderDIYAnimator.m */; };
+		E5A5B49321464F09004AD72F /* LNRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B47F21464F09004AD72F /* LNRefreshHeader.m */; };
+		E5A5B49421464F09004AD72F /* LNRefreshAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B48021464F09004AD72F /* LNRefreshAnimator.m */; };
+		E5A5B49521464F09004AD72F /* LNRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B48121464F09004AD72F /* LNRefreshFooter.m */; };
+		E5A5B49621464F09004AD72F /* LNRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B48221464F09004AD72F /* LNRefreshConst.m */; };
+		E5A5B49721464F09004AD72F /* LNRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B48421464F09004AD72F /* LNRefreshComponent.m */; };
+		E5A5B49821464F09004AD72F /* LNRefreshHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B48521464F09004AD72F /* LNRefreshHandler.m */; };
+		E5A5B49921464F09004AD72F /* LNFooterAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B48621464F09004AD72F /* LNFooterAnimator.m */; };
+		E5A5B49A21464F09004AD72F /* NSObject+LNRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B48721464F09004AD72F /* NSObject+LNRefresh.m */; };
+		E5A5B49B21464F09004AD72F /* LNHeaderAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B48D21464F09004AD72F /* LNHeaderAnimator.m */; };
+		E5A5B49C21464F09004AD72F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B49221464F09004AD72F /* Info.plist */; };
 		F9894D6637F216B8BD532710 /* libPods-ProjectFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6420FF032480D49DD14D4B2C /* libPods-ProjectFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -167,6 +199,58 @@
 		E5A5B43E2146228F004AD72F /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		E5A5B43F21463846004AD72F /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		E5A5B44021463846004AD72F /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		E5A5B442214639ED004AD72F /* AppDelegteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegteManager.h; sourceTree = "<group>"; };
+		E5A5B443214639ED004AD72F /* AppDelegteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegteManager.m; sourceTree = "<group>"; };
+		E5A5B44521463C4B004AD72F /* PhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoManager.h; sourceTree = "<group>"; };
+		E5A5B44621463C4B004AD72F /* PhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoManager.m; sourceTree = "<group>"; };
+		E5A5B44B21463D09004AD72F /* post_originalimage_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_originalimage_normal@2x.png"; sourceTree = "<group>"; };
+		E5A5B44D21463D11004AD72F /* post_originalimage_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_originalimage_normal@3x.png"; sourceTree = "<group>"; };
+		E5A5B44F21463D1D004AD72F /* post_originalimage_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_originalimage_selected@2x.png"; sourceTree = "<group>"; };
+		E5A5B45121463D24004AD72F /* post_originalimage_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_originalimage_selected@3x.png"; sourceTree = "<group>"; };
+		E5A5B45321463DAF004AD72F /* navi_shadow_1x6_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_shadow_1x6_@1x.png"; sourceTree = "<group>"; };
+		E5A5B45521463DB7004AD72F /* navi_shadow_1x6_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_shadow_1x6_@2x.png"; sourceTree = "<group>"; };
+		E5A5B45721463DBE004AD72F /* navi_shadow_1x6_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_shadow_1x6_@3x.png"; sourceTree = "<group>"; };
+		E5A5B45921463DCE004AD72F /* navi_back_26x26_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_back_26x26_@1x.png"; sourceTree = "<group>"; };
+		E5A5B45B21463DD6004AD72F /* navi_back_26x26_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_back_26x26_@2x.png"; sourceTree = "<group>"; };
+		E5A5B45D21463DDD004AD72F /* navi_back_26x26_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_back_26x26_@3x.png"; sourceTree = "<group>"; };
+		E5A5B45F21463DF5004AD72F /* navi_back_shadow_26x26_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_back_shadow_26x26_@1x.png"; sourceTree = "<group>"; };
+		E5A5B46121463DFD004AD72F /* navi_back_shadow_26x26_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_back_shadow_26x26_@2x.png"; sourceTree = "<group>"; };
+		E5A5B46321463E03004AD72F /* navi_back_shadow_26x26_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_back_shadow_26x26_@3x.png"; sourceTree = "<group>"; };
+		E5A5B46621463FD1004AD72F /* DeviceID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceID.m; sourceTree = "<group>"; };
+		E5A5B46721463FD1004AD72F /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
+		E5A5B46821463FD1004AD72F /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
+		E5A5B46921463FD1004AD72F /* DeviceID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceID.h; sourceTree = "<group>"; };
+		E5A5B46A21463FD1004AD72F /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
+		E5A5B46B21463FD1004AD72F /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		E5A5B4702146404B004AD72F /* YLoadingPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLoadingPanel.h; sourceTree = "<group>"; };
+		E5A5B4712146404B004AD72F /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		E5A5B4722146404B004AD72F /* LXRefreshDIYHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRefreshDIYHeader.m; sourceTree = "<group>"; };
+		E5A5B4732146404B004AD72F /* LNHeaderDIYAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNHeaderDIYAnimator.h; sourceTree = "<group>"; };
+		E5A5B4742146404B004AD72F /* YLoadingPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLoadingPanel.m; sourceTree = "<group>"; };
+		E5A5B4752146404B004AD72F /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		E5A5B4762146404B004AD72F /* LNHeaderDIYAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNHeaderDIYAnimator.m; sourceTree = "<group>"; };
+		E5A5B4772146404B004AD72F /* LXRefreshDIYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRefreshDIYHeader.h; sourceTree = "<group>"; };
+		E5A5B47E21464F09004AD72F /* NSObject+LNRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LNRefresh.h"; sourceTree = "<group>"; };
+		E5A5B47F21464F09004AD72F /* LNRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRefreshHeader.m; sourceTree = "<group>"; };
+		E5A5B48021464F09004AD72F /* LNRefreshAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRefreshAnimator.m; sourceTree = "<group>"; };
+		E5A5B48121464F09004AD72F /* LNRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRefreshFooter.m; sourceTree = "<group>"; };
+		E5A5B48221464F09004AD72F /* LNRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRefreshConst.m; sourceTree = "<group>"; };
+		E5A5B48321464F09004AD72F /* LNHeaderAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNHeaderAnimator.h; sourceTree = "<group>"; };
+		E5A5B48421464F09004AD72F /* LNRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRefreshComponent.m; sourceTree = "<group>"; };
+		E5A5B48521464F09004AD72F /* LNRefreshHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRefreshHandler.m; sourceTree = "<group>"; };
+		E5A5B48621464F09004AD72F /* LNFooterAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNFooterAnimator.m; sourceTree = "<group>"; };
+		E5A5B48721464F09004AD72F /* NSObject+LNRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LNRefresh.m"; sourceTree = "<group>"; };
+		E5A5B48821464F09004AD72F /* LNRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRefreshConst.h; sourceTree = "<group>"; };
+		E5A5B48921464F09004AD72F /* LNRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRefreshFooter.h; sourceTree = "<group>"; };
+		E5A5B48A21464F09004AD72F /* LNRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRefreshHeader.h; sourceTree = "<group>"; };
+		E5A5B48B21464F09004AD72F /* LNRefreshAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRefreshAnimator.h; sourceTree = "<group>"; };
+		E5A5B48C21464F09004AD72F /* LNRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRefresh.h; sourceTree = "<group>"; };
+		E5A5B48D21464F09004AD72F /* LNHeaderAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNHeaderAnimator.m; sourceTree = "<group>"; };
+		E5A5B48E21464F09004AD72F /* LNRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRefreshComponent.h; sourceTree = "<group>"; };
+		E5A5B48F21464F09004AD72F /* LNFooterAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNFooterAnimator.h; sourceTree = "<group>"; };
+		E5A5B49021464F09004AD72F /* LNRefreshHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRefreshHandler.h; sourceTree = "<group>"; };
+		E5A5B49121464F09004AD72F /* LNRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRefresh.h; sourceTree = "<group>"; };
+		E5A5B49221464F09004AD72F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F64B80FFD5589CAFAA3D1B45 /* Pods-ProjectFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectFramework/Pods-ProjectFramework.release.xcconfig"; sourceTree = "<group>"; };
 		FF82BD666239B02C8F2D45C7 /* Pods-ProjectFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectFramework/Pods-ProjectFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -262,6 +346,9 @@
 		E5A5B3A521461943004AD72F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E5A5B44821463CFE004AD72F /* @1x */,
+				E5A5B44A21463CFF004AD72F /* @2x */,
+				E5A5B44921463CFE004AD72F /* @3x */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -343,6 +430,10 @@
 			children = (
 				E5A5B43B21462257004AD72F /* ToastViewManager.h */,
 				E5A5B43C21462257004AD72F /* ToastViewManager.m */,
+				E5A5B442214639ED004AD72F /* AppDelegteManager.h */,
+				E5A5B443214639ED004AD72F /* AppDelegteManager.m */,
+				E5A5B44521463C4B004AD72F /* PhotoManager.h */,
+				E5A5B44621463C4B004AD72F /* PhotoManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -350,6 +441,7 @@
 		E5A5B3AA21461943004AD72F /* CommenView */ = {
 			isa = PBXGroup;
 			children = (
+				E5A5B46F2146404B004AD72F /* LXRefreshViewDIY */,
 			);
 			path = CommenView;
 			sourceTree = "<group>";
@@ -358,6 +450,7 @@
 			isa = PBXGroup;
 			children = (
 				E5A5B43E2146228F004AD72F /* SynthesizeSingleton.h */,
+				E5A5B46521463FD1004AD72F /* DeviceID */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -365,6 +458,7 @@
 		E5A5B3AC21461943004AD72F /* Thirdparty */ = {
 			isa = PBXGroup;
 			children = (
+				E5A5B47C21464F09004AD72F /* LNRefresh */,
 				E5A5B3B621461A87004AD72F /* TZImagePickerController */,
 				E5A5B3AE21461A61004AD72F /* YYModel */,
 			);
@@ -441,6 +535,104 @@
 			path = NaviBarFixSpace;
 			sourceTree = "<group>";
 		};
+		E5A5B44821463CFE004AD72F /* @1x */ = {
+			isa = PBXGroup;
+			children = (
+				E5A5B45F21463DF5004AD72F /* navi_back_shadow_26x26_@1x.png */,
+				E5A5B45921463DCE004AD72F /* navi_back_26x26_@1x.png */,
+				E5A5B45321463DAF004AD72F /* navi_shadow_1x6_@1x.png */,
+			);
+			path = "@1x";
+			sourceTree = "<group>";
+		};
+		E5A5B44921463CFE004AD72F /* @3x */ = {
+			isa = PBXGroup;
+			children = (
+				E5A5B46321463E03004AD72F /* navi_back_shadow_26x26_@3x.png */,
+				E5A5B45D21463DDD004AD72F /* navi_back_26x26_@3x.png */,
+				E5A5B45721463DBE004AD72F /* navi_shadow_1x6_@3x.png */,
+				E5A5B44D21463D11004AD72F /* post_originalimage_normal@3x.png */,
+				E5A5B45121463D24004AD72F /* post_originalimage_selected@3x.png */,
+			);
+			path = "@3x";
+			sourceTree = "<group>";
+		};
+		E5A5B44A21463CFF004AD72F /* @2x */ = {
+			isa = PBXGroup;
+			children = (
+				E5A5B46121463DFD004AD72F /* navi_back_shadow_26x26_@2x.png */,
+				E5A5B45B21463DD6004AD72F /* navi_back_26x26_@2x.png */,
+				E5A5B45521463DB7004AD72F /* navi_shadow_1x6_@2x.png */,
+				E5A5B44B21463D09004AD72F /* post_originalimage_normal@2x.png */,
+				E5A5B44F21463D1D004AD72F /* post_originalimage_selected@2x.png */,
+			);
+			path = "@2x";
+			sourceTree = "<group>";
+		};
+		E5A5B46521463FD1004AD72F /* DeviceID */ = {
+			isa = PBXGroup;
+			children = (
+				E5A5B46621463FD1004AD72F /* DeviceID.m */,
+				E5A5B46721463FD1004AD72F /* SAMKeychainQuery.m */,
+				E5A5B46821463FD1004AD72F /* SAMKeychain.h */,
+				E5A5B46921463FD1004AD72F /* DeviceID.h */,
+				E5A5B46A21463FD1004AD72F /* SAMKeychainQuery.h */,
+				E5A5B46B21463FD1004AD72F /* SAMKeychain.m */,
+			);
+			path = DeviceID;
+			sourceTree = "<group>";
+		};
+		E5A5B46F2146404B004AD72F /* LXRefreshViewDIY */ = {
+			isa = PBXGroup;
+			children = (
+				E5A5B4702146404B004AD72F /* YLoadingPanel.h */,
+				E5A5B4712146404B004AD72F /* MMMaterialDesignSpinner.h */,
+				E5A5B4722146404B004AD72F /* LXRefreshDIYHeader.m */,
+				E5A5B4742146404B004AD72F /* YLoadingPanel.m */,
+				E5A5B4752146404B004AD72F /* MMMaterialDesignSpinner.m */,
+				E5A5B4732146404B004AD72F /* LNHeaderDIYAnimator.h */,
+				E5A5B4762146404B004AD72F /* LNHeaderDIYAnimator.m */,
+				E5A5B4772146404B004AD72F /* LXRefreshDIYHeader.h */,
+			);
+			path = LXRefreshViewDIY;
+			sourceTree = "<group>";
+		};
+		E5A5B47C21464F09004AD72F /* LNRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				E5A5B47D21464F09004AD72F /* LNRefresh */,
+				E5A5B49121464F09004AD72F /* LNRefresh.h */,
+				E5A5B49221464F09004AD72F /* Info.plist */,
+			);
+			path = LNRefresh;
+			sourceTree = "<group>";
+		};
+		E5A5B47D21464F09004AD72F /* LNRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				E5A5B47E21464F09004AD72F /* NSObject+LNRefresh.h */,
+				E5A5B47F21464F09004AD72F /* LNRefreshHeader.m */,
+				E5A5B48021464F09004AD72F /* LNRefreshAnimator.m */,
+				E5A5B48121464F09004AD72F /* LNRefreshFooter.m */,
+				E5A5B48221464F09004AD72F /* LNRefreshConst.m */,
+				E5A5B48321464F09004AD72F /* LNHeaderAnimator.h */,
+				E5A5B48421464F09004AD72F /* LNRefreshComponent.m */,
+				E5A5B48521464F09004AD72F /* LNRefreshHandler.m */,
+				E5A5B48621464F09004AD72F /* LNFooterAnimator.m */,
+				E5A5B48721464F09004AD72F /* NSObject+LNRefresh.m */,
+				E5A5B48821464F09004AD72F /* LNRefreshConst.h */,
+				E5A5B48921464F09004AD72F /* LNRefreshFooter.h */,
+				E5A5B48A21464F09004AD72F /* LNRefreshHeader.h */,
+				E5A5B48B21464F09004AD72F /* LNRefreshAnimator.h */,
+				E5A5B48C21464F09004AD72F /* LNRefresh.h */,
+				E5A5B48D21464F09004AD72F /* LNHeaderAnimator.m */,
+				E5A5B48E21464F09004AD72F /* LNRefreshComponent.h */,
+				E5A5B48F21464F09004AD72F /* LNFooterAnimator.h */,
+				E5A5B49021464F09004AD72F /* LNRefreshHandler.h */,
+			);
+			path = LNRefresh;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -500,10 +692,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5A5B46421463E03004AD72F /* navi_back_shadow_26x26_@3x.png in Resources */,
+				E5A5B45621463DB7004AD72F /* navi_shadow_1x6_@2x.png in Resources */,
+				E5A5B49C21464F09004AD72F /* Info.plist in Resources */,
 				E5A5B39A21460791004AD72F /* LaunchScreen.storyboard in Resources */,
+				E5A5B45221463D24004AD72F /* post_originalimage_selected@3x.png in Resources */,
+				E5A5B45821463DBE004AD72F /* navi_shadow_1x6_@3x.png in Resources */,
+				E5A5B46221463DFD004AD72F /* navi_back_shadow_26x26_@2x.png in Resources */,
 				E5A5B3DB21461A87004AD72F /* TZImagePickerController.bundle in Resources */,
+				E5A5B45E21463DDD004AD72F /* navi_back_26x26_@3x.png in Resources */,
+				E5A5B45C21463DD6004AD72F /* navi_back_26x26_@2x.png in Resources */,
+				E5A5B44E21463D11004AD72F /* post_originalimage_normal@3x.png in Resources */,
 				E5A5B39721460791004AD72F /* Assets.xcassets in Resources */,
+				E5A5B45421463DAF004AD72F /* navi_shadow_1x6_@1x.png in Resources */,
 				E5A5B39521460790004AD72F /* Main.storyboard in Resources */,
+				E5A5B44C21463D09004AD72F /* post_originalimage_normal@2x.png in Resources */,
+				E5A5B45021463D1D004AD72F /* post_originalimage_selected@2x.png in Resources */,
+				E5A5B46021463DF5004AD72F /* navi_back_shadow_26x26_@1x.png in Resources */,
+				E5A5B45A21463DCE004AD72F /* navi_back_26x26_@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,46 +770,64 @@
 				E5A5B42A21461CF6004AD72F /* UINavigation+SXFixSpace.m in Sources */,
 				E5A5B43921461CF6004AD72F /* UIViewController+Extension.m in Sources */,
 				E5A5B39221460790004AD72F /* ViewController.m in Sources */,
+				E5A5B47B2146404B004AD72F /* LNHeaderDIYAnimator.m in Sources */,
 				E5A5B43321461CF6004AD72F /* UIFont+Utility.m in Sources */,
 				E5A5B43421461CF6004AD72F /* NSArray+Log.m in Sources */,
 				E5A5B3DD21461A87004AD72F /* TZImageManager.m in Sources */,
 				E5A5B42F21461CF6004AD72F /* UIApplication+Extension.m in Sources */,
+				E5A5B4782146404B004AD72F /* LXRefreshDIYHeader.m in Sources */,
+				E5A5B49B21464F09004AD72F /* LNHeaderAnimator.m in Sources */,
+				E5A5B444214639ED004AD72F /* AppDelegteManager.m in Sources */,
 				E5A5B43621461CF6004AD72F /* UIAlertController+Extension.m in Sources */,
 				E5A5B3E221461A87004AD72F /* TZGifPhotoPreviewController.m in Sources */,
+				E5A5B49621464F09004AD72F /* LNRefreshConst.m in Sources */,
+				E5A5B46D21463FD1004AD72F /* SAMKeychainQuery.m in Sources */,
 				E5A5B3D521461A87004AD72F /* TZAssetCell.m in Sources */,
+				E5A5B4792146404B004AD72F /* YLoadingPanel.m in Sources */,
 				E5A5B3D621461A87004AD72F /* TZVideoPlayerController.m in Sources */,
 				E5A5B44121463846004AD72F /* NSString+Extension.m in Sources */,
 				E5A5B39D21460791004AD72F /* main.m in Sources */,
 				E5A5B43021461CF6004AD72F /* NSObject+Extension.m in Sources */,
 				E5A5B42E21461CF6004AD72F /* NSDate+Extension.m in Sources */,
 				E5A5B3D821461A87004AD72F /* NSBundle+TZImagePicker.m in Sources */,
+				E5A5B49A21464F09004AD72F /* NSObject+LNRefresh.m in Sources */,
 				E5A5B43D21462257004AD72F /* ToastViewManager.m in Sources */,
+				E5A5B49921464F09004AD72F /* LNFooterAnimator.m in Sources */,
 				E5A5B38F21460790004AD72F /* AppDelegate.m in Sources */,
 				E5A5B3D421461A87004AD72F /* TZImageCropManager.m in Sources */,
 				E5A5B43121461CF6004AD72F /* UIColor+Utility.m in Sources */,
 				E5A5B42721461CF6004AD72F /* NSArray+Extension.m in Sources */,
 				E5A5B42321461CF6004AD72F /* UIScrollView+Extension.m in Sources */,
+				E5A5B47A2146404B004AD72F /* MMMaterialDesignSpinner.m in Sources */,
 				E5A5B42B21461CF6004AD72F /* UIBarButtonItem+SXCreate.m in Sources */,
 				E5A5B3DF21461A87004AD72F /* TZPhotoPreviewCell.m in Sources */,
 				E5A5B42621461CF6004AD72F /* UIView+Badge.m in Sources */,
 				E5A5B3E521461AEA004AD72F /* BaseNavigationViewController.m in Sources */,
+				E5A5B49721464F09004AD72F /* LNRefreshComponent.m in Sources */,
 				E5A5B43221461CF6004AD72F /* LFUIView+MBProgressHUD.m in Sources */,
 				E5A5B3DA21461A87004AD72F /* TZPhotoPreviewController.m in Sources */,
+				E5A5B49521464F09004AD72F /* LNRefreshFooter.m in Sources */,
 				E5A5B42921461CF6004AD72F /* UIButton+Help.m in Sources */,
 				E5A5B3DC21461A87004AD72F /* TZProgressView.m in Sources */,
 				E5A5B3D721461A87004AD72F /* TZAssetModel.m in Sources */,
 				E5A5B42D21461CF6004AD72F /* UIView+Extension.m in Sources */,
 				E5A5B42821461CF6004AD72F /* NSNotificationCenter+Extension.m in Sources */,
 				E5A5B42521461CF6004AD72F /* UILabel+Extension.m in Sources */,
+				E5A5B46C21463FD1004AD72F /* DeviceID.m in Sources */,
+				E5A5B49421464F09004AD72F /* LNRefreshAnimator.m in Sources */,
 				E5A5B3D921461A87004AD72F /* UIView+Layout.m in Sources */,
 				E5A5B43821461CF6004AD72F /* NSObject+Runtime.m in Sources */,
 				E5A5B43721461CF6004AD72F /* UIImage+Utility.m in Sources */,
 				E5A5B3E121461A87004AD72F /* TZLocationManager.m in Sources */,
 				E5A5B3B521461A6F004AD72F /* YYClassInfo.m in Sources */,
 				E5A5B42221461CF6004AD72F /* NSDictionary+NilSafe.m in Sources */,
+				E5A5B49821464F09004AD72F /* LNRefreshHandler.m in Sources */,
 				E5A5B43521461CF6004AD72F /* UIDevice+Info.m in Sources */,
+				E5A5B46E21463FD1004AD72F /* SAMKeychain.m in Sources */,
 				E5A5B3E021461A87004AD72F /* TZImagePickerController.m in Sources */,
 				E5A5B3B421461A6F004AD72F /* NSObject+YYModel.m in Sources */,
+				E5A5B44721463C4B004AD72F /* PhotoManager.m in Sources */,
+				E5A5B49321464F09004AD72F /* LNRefreshHeader.m in Sources */,
 				E5A5B43A21461CF6004AD72F /* UIButton+EnlargeEdge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
