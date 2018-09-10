@@ -49,7 +49,7 @@
 #import "SynthesizeSingleton.h"
 #import "AppDelegteManager.h"
 #import "PhotoManager.h"
-
+#import "LocationManager.h"
 
 
 #pragma mark - 第三方
@@ -91,6 +91,7 @@
 #import "TZImageManager.h"
 #import "YYModel.h"
 #import "LNRefresh.h"
-
+#import "BaiduMobStat.h"
+#import <BMKLocationkit/BMKLocationComponent.h>
 
 #endif /* Header_h */

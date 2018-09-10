@@ -15,6 +15,10 @@ SYNTHESIZE_SINGLETON_ARC(AppDelegteManager);
 - (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // 键盘管理
     [self keyboardManager];
+    // 百度统计
+    [self baiduMobStat];
+    // 定位信息
+    [self loactionManager];
     
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -35,5 +39,22 @@ SYNTHESIZE_SINGLETON_ARC(AppDelegteManager);
 
 - (void)keyboardManager {
     [[IQKeyboardManager sharedManager] setEnable:YES];
+}
+- (void)baiduMobStat {
+    
+#ifdef NeedBaiduMobStat
+    [[BaiduMobStat defaultStat] startWithAppId:BaiduMobStatKey];
+#else
+    
+#endif
+    
+}
+- (void)loactionManager {
+    
+#ifdef NeedLocationManager
+    [[LocationManager sharedInstance] setUpLocationManager];
+#else
+    
+#endif
 }
 @end

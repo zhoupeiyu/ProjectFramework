@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5699D6E2146592B00765FF6 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699D6D2146592B00765FF6 /* LocationManager.m */; };
 		E5A5B38F21460790004AD72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B38E21460790004AD72F /* AppDelegate.m */; };
 		E5A5B39221460790004AD72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B39121460790004AD72F /* ViewController.m */; };
 		E5A5B39521460790004AD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B39321460790004AD72F /* Main.storyboard */; };
@@ -55,7 +56,6 @@
 		E5A5B43821461CF6004AD72F /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B41A21461CF5004AD72F /* NSObject+Runtime.m */; };
 		E5A5B43921461CF6004AD72F /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B41D21461CF6004AD72F /* UIViewController+Extension.m */; };
 		E5A5B43A21461CF6004AD72F /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B41F21461CF6004AD72F /* UIButton+EnlargeEdge.m */; };
-		E5A5B43D21462257004AD72F /* ToastViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B43C21462257004AD72F /* ToastViewManager.m */; };
 		E5A5B44121463846004AD72F /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B44021463846004AD72F /* NSString+Extension.m */; };
 		E5A5B444214639ED004AD72F /* AppDelegteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B443214639ED004AD72F /* AppDelegteManager.m */; };
 		E5A5B44721463C4B004AD72F /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B44621463C4B004AD72F /* PhotoManager.m */; };
@@ -94,6 +94,8 @@
 
 /* Begin PBXFileReference section */
 		6420FF032480D49DD14D4B2C /* libPods-ProjectFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5699D6C2146592B00765FF6 /* LocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		E5699D6D2146592B00765FF6 /* LocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 		E5A5B38A21460790004AD72F /* ProjectFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A5B38D21460790004AD72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5A5B38E21460790004AD72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -194,8 +196,6 @@
 		E5A5B41E21461CF6004AD72F /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
 		E5A5B41F21461CF6004AD72F /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
 		E5A5B42021461CF6004AD72F /* UIButton+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Help.h"; sourceTree = "<group>"; };
-		E5A5B43B21462257004AD72F /* ToastViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToastViewManager.h; sourceTree = "<group>"; };
-		E5A5B43C21462257004AD72F /* ToastViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToastViewManager.m; sourceTree = "<group>"; };
 		E5A5B43E2146228F004AD72F /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		E5A5B43F21463846004AD72F /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		E5A5B44021463846004AD72F /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
@@ -428,12 +428,12 @@
 		E5A5B3A921461943004AD72F /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				E5A5B43B21462257004AD72F /* ToastViewManager.h */,
-				E5A5B43C21462257004AD72F /* ToastViewManager.m */,
 				E5A5B442214639ED004AD72F /* AppDelegteManager.h */,
 				E5A5B443214639ED004AD72F /* AppDelegteManager.m */,
 				E5A5B44521463C4B004AD72F /* PhotoManager.h */,
 				E5A5B44621463C4B004AD72F /* PhotoManager.m */,
+				E5699D6C2146592B00765FF6 /* LocationManager.h */,
+				E5699D6D2146592B00765FF6 /* LocationManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -791,7 +791,6 @@
 				E5A5B42E21461CF6004AD72F /* NSDate+Extension.m in Sources */,
 				E5A5B3D821461A87004AD72F /* NSBundle+TZImagePicker.m in Sources */,
 				E5A5B49A21464F09004AD72F /* NSObject+LNRefresh.m in Sources */,
-				E5A5B43D21462257004AD72F /* ToastViewManager.m in Sources */,
 				E5A5B49921464F09004AD72F /* LNFooterAnimator.m in Sources */,
 				E5A5B38F21460790004AD72F /* AppDelegate.m in Sources */,
 				E5A5B3D421461A87004AD72F /* TZImageCropManager.m in Sources */,
@@ -816,6 +815,7 @@
 				E5A5B46C21463FD1004AD72F /* DeviceID.m in Sources */,
 				E5A5B49421464F09004AD72F /* LNRefreshAnimator.m in Sources */,
 				E5A5B3D921461A87004AD72F /* UIView+Layout.m in Sources */,
+				E5699D6E2146592B00765FF6 /* LocationManager.m in Sources */,
 				E5A5B43821461CF6004AD72F /* NSObject+Runtime.m in Sources */,
 				E5A5B43721461CF6004AD72F /* UIImage+Utility.m in Sources */,
 				E5A5B3E121461A87004AD72F /* TZLocationManager.m in Sources */,

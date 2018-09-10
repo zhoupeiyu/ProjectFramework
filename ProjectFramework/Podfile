@@ -103,6 +103,9 @@ pod 'Reachability', '~> 3.2'
 #百度统计 [[BaiduMobStat defaultStat] startWithAppId:@"APP KEY"];
 pod 'BaiduMobStatCodeless'
 
+# 百度地图
+pod 'BMKLocationKit'
+
   # Pods for ProjectFramework
 
 end
