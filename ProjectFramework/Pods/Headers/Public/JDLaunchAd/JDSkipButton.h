@@ -1,0 +1,1 @@
+../../../JDLaunchAd/JDLaunchAd/JDSkipButton.h
