@@ -19,6 +19,9 @@
 
     [[AppDelegteManager sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
     
+    // 设置tabBar
+    [self setupTabBar];
+    
     return YES;
 }
 
@@ -47,5 +50,11 @@
     
 }
 
-
+- (void)setupTabBar {
+    UITabBarController *rvc = [TabBarControllerManager tabBarController];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [TabBarControllerManager baseViewColor];
+    [self.window setRootViewController:rvc];
+    [self.window makeKeyAndVisible];
+}
 @end
