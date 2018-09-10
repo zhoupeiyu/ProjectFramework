@@ -6,18 +6,18 @@
 //  Copyright © 2018年 周培玉. All rights reserved.
 //
 
-#import "TabBarControllerManager.h"
+#import "BaseTheme.h"
 
-@interface TabBarControllerManager ()
+@interface BaseTheme ()
 
 @property (nonatomic, strong) NSMutableArray *controllers;
 @property (nonatomic, strong) NSMutableArray *tabBarItemsAttributes;
 
 
 @end
-@implementation TabBarControllerManager
+@implementation BaseTheme
 
-SYNTHESIZE_SINGLETON_ARC(TabBarControllerManager);
+SYNTHESIZE_SINGLETON_ARC(BaseTheme);
 
 + (UIColor *)baseViewColor {
     return [UIColor colorFromRGB:0xf2f2f2];
@@ -37,32 +37,26 @@ SYNTHESIZE_SINGLETON_ARC(TabBarControllerManager);
 + (UIFont *)navBarTitleFont {
     return [UIFont systemFontOfSize:18];
 }
-
-+ (BaseNavigationViewController *)setupTabBarItem:(BaseViewController *)baseVC {
-    BaseNavigationViewController *nav = [[BaseNavigationViewController alloc] initWithRootViewController:baseVC];
-    UITabBarItem *tabBarItem = nav.tabBarItem;
-    UIColor *titleColor = [self tabBarTitleNormalColor];
-    UIColor *hlTitleColor = [self tabBarTitleSelectedColor];
-    [tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:titleColor, nil] forKeys:[NSArray arrayWithObjects:NSForegroundColorAttributeName, nil]] forState:UIControlStateNormal];
-    [tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:hlTitleColor, nil] forKeys:[NSArray arrayWithObjects:NSForegroundColorAttributeName, nil]] forState:UIControlStateSelected];
-    return nav;
++ (UIImage *)navBackgroundImage {
+    UIImage *image = [UIImage imageNamed:@"navi_shadow_1x6_"];
+    return image;
 }
 - (NSMutableArray *)controllers {
     if (!_controllers) {
         _controllers = [[NSMutableArray alloc] init];
         {
             BaseViewController *vc = [[BaseViewController alloc] init];
-            BaseNavigationViewController *nav = [TabBarControllerManager setupTabBarItem:vc];
+            BaseNavigationViewController *nav = [[BaseNavigationViewController alloc] initWithRootViewController:vc];
             [_controllers addObject:nav];
         }
         {
             BaseViewController *vc = [[BaseViewController alloc] init];
-            BaseNavigationViewController *nav = [TabBarControllerManager setupTabBarItem:vc];
+            BaseNavigationViewController *nav = [[BaseNavigationViewController alloc] initWithRootViewController:vc];
             [_controllers addObject:nav];
         }
         {
             BaseViewController *vc = [[BaseViewController alloc] init];
-            BaseNavigationViewController *nav = [TabBarControllerManager setupTabBarItem:vc];
+            BaseNavigationViewController *nav = [[BaseNavigationViewController alloc] initWithRootViewController:vc];
             [_controllers addObject:nav];
         }
     }
@@ -73,15 +67,15 @@ SYNTHESIZE_SINGLETON_ARC(TabBarControllerManager);
     if (!_tabBarItemsAttributes) {
         _tabBarItemsAttributes = [[NSMutableArray alloc] init];
         {
-            NSMutableDictionary *infoDic = [TabBarControllerManager infoDicWithTitle:@"首页" normalImage:@"tab_home_24x24_" selectedImage:@"tab_home_h_24x24_"];
+            NSMutableDictionary *infoDic = [BaseTheme infoDicWithTitle:@"首页" normalImage:@"tab_home_24x24_" selectedImage:@"tab_home_h_24x24_"];
             [_tabBarItemsAttributes addObject:infoDic];
         }
         {
-            NSMutableDictionary *infoDic = [TabBarControllerManager infoDicWithTitle:@"消息" normalImage:@"tab_msn_24x24_" selectedImage:@"tab_msn_h_24x24_"];
+            NSMutableDictionary *infoDic = [BaseTheme infoDicWithTitle:@"消息" normalImage:@"tab_msn_24x24_" selectedImage:@"tab_msn_h_24x24_"];
             [_tabBarItemsAttributes addObject:infoDic];
         }
         {
-            NSMutableDictionary *infoDic = [TabBarControllerManager infoDicWithTitle:@"我的" normalImage:@"tab_me_24x24_" selectedImage:@"tab_me_h_24x24_"];
+            NSMutableDictionary *infoDic = [BaseTheme infoDicWithTitle:@"我的" normalImage:@"tab_me_24x24_" selectedImage:@"tab_me_h_24x24_"];
             [_tabBarItemsAttributes addObject:infoDic];
         }
     }

@@ -51,9 +51,9 @@
 }
 
 - (void)setupTabBar {
-    UITabBarController *rvc = [TabBarControllerManager tabBarController];
+    UITabBarController *rvc = [BaseTheme tabBarController];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [TabBarControllerManager baseViewColor];
+    self.window.backgroundColor = [BaseTheme baseViewColor];
     [self.window setRootViewController:rvc];
     [self.window makeKeyAndVisible];
 }

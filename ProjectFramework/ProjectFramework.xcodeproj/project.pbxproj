@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E5699D6E2146592B00765FF6 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699D6D2146592B00765FF6 /* LocationManager.m */; };
-		E5699D712146676900765FF6 /* TabBarControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699D702146676900765FF6 /* TabBarControllerManager.m */; };
+		E5699D712146676900765FF6 /* BaseTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699D702146676900765FF6 /* BaseTheme.m */; };
 		E5699D742146720500765FF6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699D732146720500765FF6 /* BaseViewController.m */; };
 		E5699D7B21467A3B00765FF6 /* tab_home_24x24_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699D7921467A3B00765FF6 /* tab_home_24x24_@1x.png */; };
 		E5699D7C21467A3B00765FF6 /* tab_home_h_24x24_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699D7A21467A3B00765FF6 /* tab_home_h_24x24_@1x.png */; };
@@ -116,8 +116,8 @@
 		6420FF032480D49DD14D4B2C /* libPods-ProjectFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5699D6C2146592B00765FF6 /* LocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		E5699D6D2146592B00765FF6 /* LocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
-		E5699D6F2146676900765FF6 /* TabBarControllerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarControllerManager.h; sourceTree = "<group>"; };
-		E5699D702146676900765FF6 /* TabBarControllerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerManager.m; sourceTree = "<group>"; };
+		E5699D6F2146676900765FF6 /* BaseTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTheme.h; sourceTree = "<group>"; };
+		E5699D702146676900765FF6 /* BaseTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTheme.m; sourceTree = "<group>"; };
 		E5699D722146720500765FF6 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		E5699D732146720500765FF6 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		E5699D7921467A3B00765FF6 /* tab_home_24x24_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_home_24x24_@1x.png"; sourceTree = "<group>"; };
@@ -526,8 +526,8 @@
 				E5A5B44621463C4B004AD72F /* PhotoManager.m */,
 				E5699D6C2146592B00765FF6 /* LocationManager.h */,
 				E5699D6D2146592B00765FF6 /* LocationManager.m */,
-				E5699D6F2146676900765FF6 /* TabBarControllerManager.h */,
-				E5699D702146676900765FF6 /* TabBarControllerManager.m */,
+				E5699D6F2146676900765FF6 /* BaseTheme.h */,
+				E5699D702146676900765FF6 /* BaseTheme.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -900,7 +900,7 @@
 				E5A5B49621464F09004AD72F /* LNRefreshConst.m in Sources */,
 				E5A5B46D21463FD1004AD72F /* SAMKeychainQuery.m in Sources */,
 				E5A5B3D521461A87004AD72F /* TZAssetCell.m in Sources */,
-				E5699D712146676900765FF6 /* TabBarControllerManager.m in Sources */,
+				E5699D712146676900765FF6 /* BaseTheme.m in Sources */,
 				E5A5B4792146404B004AD72F /* YLoadingPanel.m in Sources */,
 				E5A5B3D621461A87004AD72F /* TZVideoPlayerController.m in Sources */,
 				E5A5B44121463846004AD72F /* NSString+Extension.m in Sources */,

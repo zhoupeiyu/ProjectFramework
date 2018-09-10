@@ -58,7 +58,7 @@
 #import "AppDelegteManager.h"
 #import "PhotoManager.h"
 #import "LocationManager.h"
-#import "TabBarControllerManager.h"
+#import "BaseTheme.h"
 
 
 #pragma mark - 第三方

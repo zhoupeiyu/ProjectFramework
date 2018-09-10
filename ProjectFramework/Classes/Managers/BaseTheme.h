@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CYLTabBarController.h>
 
-@interface TabBarControllerManager : NSObject
+@interface BaseTheme : NSObject
 
 #pragma mark - 配置
 + (UIColor *)baseViewColor;
@@ -20,10 +20,11 @@
 
 + (UIColor *)navBarTitleColor;
 + (UIFont *)navBarTitleFont;
++ (UIImage *)navBackgroundImage;
 
 #pragma mark -tabBarController
 
-+ (TabBarControllerManager *)sharedInstance;
++ (BaseTheme *)sharedInstance;
 
 + (CYLTabBarController *)tabBarController;
 
