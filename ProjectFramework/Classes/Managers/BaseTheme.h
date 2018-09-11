@@ -21,6 +21,7 @@
 + (UIColor *)navBarTitleColor;
 + (UIFont *)navBarTitleFont;
 + (UIImage *)navBackgroundImage;
++ (UIColor *)navBarBottomLineColor;
 
 #pragma mark -tabBarController
 

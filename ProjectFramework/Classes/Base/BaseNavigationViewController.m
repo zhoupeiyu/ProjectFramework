@@ -22,6 +22,13 @@
     [self.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[BaseTheme navBarTitleFont],NSFontAttributeName,nil]];
     [self.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
     
+    UIView *view = [[UIView alloc] init];
+    view.backgroundColor = [BaseTheme navBarBottomLineColor];
+    view.frame = CGRectMake(0, self.navigationBar.height + KSeparatorLineHeight, self.navigationBar.width, KSeparatorLineHeight);
+    view.tag = 328;
+    [self.navigationBar addSubview:view];
+    
+    
     UITabBarItem *tabBarItem = self.tabBarItem;
     UIColor *titleColor = [BaseTheme tabBarTitleNormalColor];
     UIColor *hlTitleColor = [BaseTheme tabBarTitleSelectedColor];

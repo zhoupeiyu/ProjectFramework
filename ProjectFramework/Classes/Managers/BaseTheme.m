@@ -41,6 +41,9 @@ SYNTHESIZE_SINGLETON_ARC(BaseTheme);
     UIImage *image = [UIImage imageNamed:@"navi_shadow_1x6_"];
     return image;
 }
++ (UIColor *)navBarBottomLineColor {
+    return [UIColor colorFromRGB:0xdfdfdf];
+}
 - (NSMutableArray *)controllers {
     if (!_controllers) {
         _controllers = [[NSMutableArray alloc] init];
@@ -95,6 +98,10 @@ SYNTHESIZE_SINGLETON_ARC(BaseTheme);
 }
 - (CYLTabBarController *)tabBarController {
     CYLTabBarController *tabBar = [[CYLTabBarController alloc] initWithViewControllers:self.controllers tabBarItemsAttributes:self.tabBarItemsAttributes];
+    UIImage *backImage = [UIImage imageNamed:@"tabbar_background"];
+    backImage = [backImage stretchableImageWithLeftCapWidth:backImage.size.width * 0.5 topCapHeight:backImage.size.height * 0.5];
+    [tabBar.tabBar setBackgroundImage:backImage];
     return tabBar;
 }
+
 @end
