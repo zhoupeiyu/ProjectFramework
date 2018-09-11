@@ -32,6 +32,18 @@
 		E5699DA0214753AF00765FF6 /* tabbar_background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699D9F214753AE00765FF6 /* tabbar_background@3x.png */; };
 		E5699DA22147568000765FF6 /* toast_background_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699DA12147568000765FF6 /* toast_background_white@2x.png */; };
 		E5699DA42147569300765FF6 /* toast_background_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699DA32147569300765FF6 /* toast_background_white@3x.png */; };
+		E5699F5A214760A900765FF6 /* TipViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F59214760A900765FF6 /* TipViewManager.m */; };
+		E5699F5E214764C700765FF6 /* FristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F5C214764C700765FF6 /* FristViewController.m */; };
+		E5699F5F214764C700765FF6 /* FristViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5699F5D214764C700765FF6 /* FristViewController.xib */; };
+		E5699F62214764D400765FF6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F61214764D400765FF6 /* SecondViewController.m */; };
+		E5699F652147659200765FF6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F642147659200765FF6 /* ThirdViewController.m */; };
+		E5699F692147877A00765FF6 /* BaseNetWorkService.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F682147877A00765FF6 /* BaseNetWorkService.m */; };
+		E5699F6B21478C4E00765FF6 /* toast_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699F6A21478C4E00765FF6 /* toast_done@2x.png */; };
+		E5699F6D21478C5500765FF6 /* toast_done@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699F6C21478C5500765FF6 /* toast_done@3x.png */; };
+		E5699F6F21478C6300765FF6 /* toast_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699F6E21478C6300765FF6 /* toast_error@2x.png */; };
+		E5699F7121478C6C00765FF6 /* toast_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699F7021478C6C00765FF6 /* toast_error@3x.png */; };
+		E5699F7321478C7900765FF6 /* toast_attention@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699F7221478C7900765FF6 /* toast_attention@2x.png */; };
+		E5699F7521478C8000765FF6 /* toast_attention@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699F7421478C7F00765FF6 /* toast_attention@3x.png */; };
 		E5A5B38F21460790004AD72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B38E21460790004AD72F /* AppDelegate.m */; };
 		E5A5B39221460790004AD72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B39121460790004AD72F /* ViewController.m */; };
 		E5A5B39521460790004AD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B39321460790004AD72F /* Main.storyboard */; };
@@ -146,6 +158,24 @@
 		E5699D9F214753AE00765FF6 /* tabbar_background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_background@3x.png"; sourceTree = "<group>"; };
 		E5699DA12147568000765FF6 /* toast_background_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_background_white@2x.png"; sourceTree = "<group>"; };
 		E5699DA32147569300765FF6 /* toast_background_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_background_white@3x.png"; sourceTree = "<group>"; };
+		E5699F58214760A900765FF6 /* TipViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipViewManager.h; sourceTree = "<group>"; };
+		E5699F59214760A900765FF6 /* TipViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewManager.m; sourceTree = "<group>"; };
+		E5699F5B214764C700765FF6 /* FristViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FristViewController.h; sourceTree = "<group>"; };
+		E5699F5C214764C700765FF6 /* FristViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FristViewController.m; sourceTree = "<group>"; };
+		E5699F5D214764C700765FF6 /* FristViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FristViewController.xib; sourceTree = "<group>"; };
+		E5699F60214764D400765FF6 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E5699F61214764D400765FF6 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E5699F632147659200765FF6 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		E5699F642147659200765FF6 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		E5699F662147685C00765FF6 /* ModuleHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleHeader.h; sourceTree = "<group>"; };
+		E5699F672147877A00765FF6 /* BaseNetWorkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNetWorkService.h; sourceTree = "<group>"; };
+		E5699F682147877A00765FF6 /* BaseNetWorkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNetWorkService.m; sourceTree = "<group>"; };
+		E5699F6A21478C4E00765FF6 /* toast_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_done@2x.png"; sourceTree = "<group>"; };
+		E5699F6C21478C5500765FF6 /* toast_done@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_done@3x.png"; sourceTree = "<group>"; };
+		E5699F6E21478C6300765FF6 /* toast_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_error@2x.png"; sourceTree = "<group>"; };
+		E5699F7021478C6C00765FF6 /* toast_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_error@3x.png"; sourceTree = "<group>"; };
+		E5699F7221478C7900765FF6 /* toast_attention@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_attention@2x.png"; sourceTree = "<group>"; };
+		E5699F7421478C7F00765FF6 /* toast_attention@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_attention@3x.png"; sourceTree = "<group>"; };
 		E5A5B38A21460790004AD72F /* ProjectFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A5B38D21460790004AD72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5A5B38E21460790004AD72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -410,6 +440,13 @@
 				E5A5B38E21460790004AD72F /* AppDelegate.m */,
 				E5A5B39021460790004AD72F /* ViewController.h */,
 				E5A5B39121460790004AD72F /* ViewController.m */,
+				E5699F5B214764C700765FF6 /* FristViewController.h */,
+				E5699F5C214764C700765FF6 /* FristViewController.m */,
+				E5699F5D214764C700765FF6 /* FristViewController.xib */,
+				E5699F60214764D400765FF6 /* SecondViewController.h */,
+				E5699F61214764D400765FF6 /* SecondViewController.m */,
+				E5699F632147659200765FF6 /* ThirdViewController.h */,
+				E5699F642147659200765FF6 /* ThirdViewController.m */,
 				E5A5B3A3214607C1004AD72F /* SystemConfig */,
 			);
 			path = ProjectFramework;
@@ -432,6 +469,7 @@
 			children = (
 				E5A5B3E621461B0A004AD72F /* PrefixHeader.pch */,
 				E5A5B3E721461B32004AD72F /* Header.h */,
+				E5699F662147685C00765FF6 /* ModuleHeader.h */,
 				E5A5B3E821461BF6004AD72F /* Define.h */,
 				E5A5B3E921461C19004AD72F /* Standard.h */,
 				E5A5B3A921461943004AD72F /* Managers */,
@@ -457,6 +495,8 @@
 		E5A5B3A621461943004AD72F /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				E5699F672147877A00765FF6 /* BaseNetWorkService.h */,
+				E5699F682147877A00765FF6 /* BaseNetWorkService.m */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -536,6 +576,8 @@
 				E5699D6D2146592B00765FF6 /* LocationManager.m */,
 				E5699D6F2146676900765FF6 /* BaseTheme.h */,
 				E5699D702146676900765FF6 /* BaseTheme.m */,
+				E5699F58214760A900765FF6 /* TipViewManager.h */,
+				E5699F59214760A900765FF6 /* TipViewManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -652,6 +694,9 @@
 		E5A5B44921463CFE004AD72F /* @3x */ = {
 			isa = PBXGroup;
 			children = (
+				E5699F7421478C7F00765FF6 /* toast_attention@3x.png */,
+				E5699F7021478C6C00765FF6 /* toast_error@3x.png */,
+				E5699F6C21478C5500765FF6 /* toast_done@3x.png */,
 				E5699DA32147569300765FF6 /* toast_background_white@3x.png */,
 				E5699D9F214753AE00765FF6 /* tabbar_background@3x.png */,
 				E5A5B46321463E03004AD72F /* navi_back_shadow_26x26_@3x.png */,
@@ -666,6 +711,9 @@
 		E5A5B44A21463CFF004AD72F /* @2x */ = {
 			isa = PBXGroup;
 			children = (
+				E5699F7221478C7900765FF6 /* toast_attention@2x.png */,
+				E5699F6E21478C6300765FF6 /* toast_error@2x.png */,
+				E5699F6A21478C4E00765FF6 /* toast_done@2x.png */,
 				E5699DA12147568000765FF6 /* toast_background_white@2x.png */,
 				E5699D9D214753A800765FF6 /* tabbar_background@2x.png */,
 				E5A5B46121463DFD004AD72F /* navi_back_shadow_26x26_@2x.png */,
@@ -808,18 +856,23 @@
 				E5A5B45221463D24004AD72F /* post_originalimage_selected@3x.png in Resources */,
 				E5A5B45821463DBE004AD72F /* navi_shadow_1x6_@3x.png in Resources */,
 				E5699D9B21467A9600765FF6 /* tab_msn_24x24_@3x.png in Resources */,
+				E5699F6B21478C4E00765FF6 /* toast_done@2x.png in Resources */,
 				E5699D8421467A5800765FF6 /* tab_home_h_24x24_@3x.png in Resources */,
 				E5A5B46221463DFD004AD72F /* navi_back_shadow_26x26_@2x.png in Resources */,
 				E5699D9821467A8C00765FF6 /* tab_msn_h_24x24_@2x.png in Resources */,
+				E5699F7121478C6C00765FF6 /* toast_error@3x.png in Resources */,
 				E5699D8021467A4600765FF6 /* tab_home_h_24x24_@2x.png in Resources */,
 				E5A5B3DB21461A87004AD72F /* TZImagePickerController.bundle in Resources */,
 				E5699D9E214753A800765FF6 /* tabbar_background@2x.png in Resources */,
 				E5A5B45E21463DDD004AD72F /* navi_back_26x26_@3x.png in Resources */,
 				E5699D9021467A7700765FF6 /* tab_me_24x24_@3x.png in Resources */,
 				E5A5B45C21463DD6004AD72F /* navi_back_26x26_@2x.png in Resources */,
+				E5699F5F214764C700765FF6 /* FristViewController.xib in Resources */,
 				E5A5B44E21463D11004AD72F /* post_originalimage_normal@3x.png in Resources */,
 				E5699D8B21467A6D00765FF6 /* tab_me_h_24x24_@2x.png in Resources */,
+				E5699F6D21478C5500765FF6 /* toast_done@3x.png in Resources */,
 				E5A5B39721460791004AD72F /* Assets.xcassets in Resources */,
+				E5699F6F21478C6300765FF6 /* toast_error@2x.png in Resources */,
 				E5699D7C21467A3B00765FF6 /* tab_home_h_24x24_@1x.png in Resources */,
 				E5A5B45421463DAF004AD72F /* navi_shadow_1x6_@1x.png in Resources */,
 				E5699D9721467A8C00765FF6 /* tab_msn_24x24_@2x.png in Resources */,
@@ -840,6 +893,8 @@
 				E5699DA42147569300765FF6 /* toast_background_white@3x.png in Resources */,
 				E5A5B45A21463DCE004AD72F /* navi_back_26x26_@1x.png in Resources */,
 				E5699DA22147568000765FF6 /* toast_background_white@2x.png in Resources */,
+				E5699F7321478C7900765FF6 /* toast_attention@2x.png in Resources */,
+				E5699F7521478C8000765FF6 /* toast_attention@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -903,6 +958,7 @@
 				E5A5B43921461CF6004AD72F /* UIViewController+Extension.m in Sources */,
 				E5A5B39221460790004AD72F /* ViewController.m in Sources */,
 				E5A5B47B2146404B004AD72F /* LNHeaderDIYAnimator.m in Sources */,
+				E5699F652147659200765FF6 /* ThirdViewController.m in Sources */,
 				E5A5B43321461CF6004AD72F /* UIFont+Utility.m in Sources */,
 				E5A5B43421461CF6004AD72F /* NSArray+Log.m in Sources */,
 				E5A5B3DD21461A87004AD72F /* TZImageManager.m in Sources */,
@@ -932,10 +988,12 @@
 				E5A5B42721461CF6004AD72F /* NSArray+Extension.m in Sources */,
 				E5A5B42321461CF6004AD72F /* UIScrollView+Extension.m in Sources */,
 				E5A5B47A2146404B004AD72F /* MMMaterialDesignSpinner.m in Sources */,
+				E5699F692147877A00765FF6 /* BaseNetWorkService.m in Sources */,
 				E5A5B42B21461CF6004AD72F /* UIBarButtonItem+SXCreate.m in Sources */,
 				E5A5B3DF21461A87004AD72F /* TZPhotoPreviewCell.m in Sources */,
 				E5A5B42621461CF6004AD72F /* UIView+Badge.m in Sources */,
 				E5A5B3E521461AEA004AD72F /* BaseNavigationViewController.m in Sources */,
+				E5699F5E214764C700765FF6 /* FristViewController.m in Sources */,
 				E5A5B49721464F09004AD72F /* LNRefreshComponent.m in Sources */,
 				E5A5B43221461CF6004AD72F /* LFUIView+MBProgressHUD.m in Sources */,
 				E5A5B3DA21461A87004AD72F /* TZPhotoPreviewController.m in Sources */,
@@ -953,6 +1011,8 @@
 				E5A5B43821461CF6004AD72F /* NSObject+Runtime.m in Sources */,
 				E5A5B43721461CF6004AD72F /* UIImage+Utility.m in Sources */,
 				E5A5B3E121461A87004AD72F /* TZLocationManager.m in Sources */,
+				E5699F62214764D400765FF6 /* SecondViewController.m in Sources */,
+				E5699F5A214760A900765FF6 /* TipViewManager.m in Sources */,
 				E5A5B3B521461A6F004AD72F /* YYClassInfo.m in Sources */,
 				E5A5B42221461CF6004AD72F /* NSDictionary+NilSafe.m in Sources */,
 				E5A5B49821464F09004AD72F /* LNRefreshHandler.m in Sources */,

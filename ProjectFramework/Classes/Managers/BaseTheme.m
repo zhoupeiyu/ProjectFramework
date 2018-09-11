@@ -48,17 +48,17 @@ SYNTHESIZE_SINGLETON_ARC(BaseTheme);
     if (!_controllers) {
         _controllers = [[NSMutableArray alloc] init];
         {
-            BaseViewController *vc = [[BaseViewController alloc] init];
+            FristViewController *vc = [[FristViewController alloc] init];
             BaseNavigationViewController *nav = [[BaseNavigationViewController alloc] initWithRootViewController:vc];
             [_controllers addObject:nav];
         }
         {
-            BaseViewController *vc = [[BaseViewController alloc] init];
+            SecondViewController *vc = [[SecondViewController alloc] init];
             BaseNavigationViewController *nav = [[BaseNavigationViewController alloc] initWithRootViewController:vc];
             [_controllers addObject:nav];
         }
         {
-            BaseViewController *vc = [[BaseViewController alloc] init];
+            ThirdViewController *vc = [[ThirdViewController alloc] init];
             BaseNavigationViewController *nav = [[BaseNavigationViewController alloc] initWithRootViewController:vc];
             [_controllers addObject:nav];
         }

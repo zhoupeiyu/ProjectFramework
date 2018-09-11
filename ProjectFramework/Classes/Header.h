@@ -23,6 +23,7 @@
 #pragma mark - Base
 #import "BaseNavigationViewController.h"
 #import "BaseViewController.h"
+#import "ModuleHeader.h"
 
 
 
@@ -59,6 +60,8 @@
 #import "PhotoManager.h"
 #import "LocationManager.h"
 #import "BaseTheme.h"
+#import "TipViewManager.h"
+#import "BaseNetWorkService.h"
 
 
 #pragma mark - 第三方
