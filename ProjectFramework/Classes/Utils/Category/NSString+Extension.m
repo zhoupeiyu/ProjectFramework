@@ -34,4 +34,29 @@
     return CGSizeCeil(result);
 }
 
+- (CGSize)getSizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size{
+    
+    NSDictionary * attributes = [NSDictionary dictionaryWithObject:font forKey:NSFontAttributeName];
+    return [self boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:attributes context:nil].size;
+}
+
+- (CGSize)getSizeWithFont:(UIFont *)font{
+    
+    NSDictionary * attributes = [NSDictionary dictionaryWithObject:font forKey:NSFontAttributeName];
+    return [self sizeWithAttributes:attributes];
+    
+}
+
+- (CGSize)getSizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size AndLineHeight:(CGFloat)lineHeight{
+    NSMutableParagraphStyle * paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    [paragraphStyle setLineSpacing:lineHeight];
+    return  [self getSizeWithFont:font constrainedToSize:size AndParagraphStyle:paragraphStyle];
+}
+
+- (CGSize)getSizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size AndParagraphStyle:(NSParagraphStyle *)paragraphStyle{
+    NSDictionary * attributes = @{NSFontAttributeName:font,NSParagraphStyleAttributeName:paragraphStyle};
+    return [self boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:attributes context:nil].size;
+}
+
+
 @end

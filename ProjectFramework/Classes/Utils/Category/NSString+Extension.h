@@ -12,4 +12,12 @@
 
 - (CGSize)lf_sizeForFont:(UIFont *)font size:(CGSize)size mode:(NSLineBreakMode)lineBreakMode;
 
+- (CGSize)getSizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size;
+
+- (CGSize)getSizeWithFont:(UIFont *)font;
+
+- (CGSize)getSizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size AndLineHeight:(CGFloat)lineHeight;
+
+- (CGSize)getSizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size AndParagraphStyle:(NSParagraphStyle *)paragraphStyle;
+
 @end

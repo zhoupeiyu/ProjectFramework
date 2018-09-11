@@ -44,6 +44,24 @@ SYNTHESIZE_SINGLETON_ARC(BaseTheme);
 + (UIColor *)navBarBottomLineColor {
     return [UIColor colorFromRGB:0xdfdfdf];
 }
++ (UIColor *)navBarLeftTextColor {
+    return [UIColor colorFromRGB:0x888888];
+}
++ (UIColor *)navBarRightTextColor {
+    return [UIColor colorFromRGB:0x888888];
+}
++ (UIFont *)navBarLeftTextFont {
+    return [UIFont systemFontOfSize:15];
+}
++ (UIFont *)navBarRightTextFont {
+    return [UIFont systemFontOfSize:15];
+}
++ (UIColor *)navBarLeftHTextColor {
+    return [UIColor colorWithHex:0x888888 alpha:0.4];
+}
++ (UIColor *)navBarRightHTextColor {
+    return [UIColor colorWithHex:0x888888 alpha:0.4];
+}
 - (NSMutableArray *)controllers {
     if (!_controllers) {
         _controllers = [[NSMutableArray alloc] init];

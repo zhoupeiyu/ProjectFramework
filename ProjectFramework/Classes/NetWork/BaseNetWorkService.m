@@ -37,6 +37,11 @@ SYNTHESIZE_SINGLETON_ARC(BaseNetWorkService);
 + (NSString *)getLoginToken {
     return [[NSUserDefaults standardUserDefaults] stringForKey:UserLoginTokenKey];
 }
++ (void)removeUserToken {
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:UserIDKey];
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:UserLoginTokenKey];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
 + (BOOL)isReachable {
    Reachability *reach = [Reachability reachabilityForInternetConnection];
     return [reach isReachable];

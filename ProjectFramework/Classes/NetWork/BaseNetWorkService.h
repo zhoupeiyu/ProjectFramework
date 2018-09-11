@@ -24,6 +24,8 @@ typedef enum : NSUInteger {
 @property (nonatomic, strong) NSString *loginToken;
 @property (nonatomic, strong) NSString *userID;
 
++ (void)removeUserToken;
+
 + (BaseNetWorkService *)sharedInstance;
 
 + (BOOL)isReachable;
