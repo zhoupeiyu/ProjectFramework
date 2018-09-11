@@ -9,6 +9,8 @@
 #ifndef Standard_h
 #define Standard_h
 
+#define MainColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
 #define MAX_RECORD_TIME                     120.0f
 #define VIDEO_PLAYER_CONTROL_BAR_ALPHA      0.6f
 

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <PSTAlertController.h>
 #import <TYAlertController.h>
+#import <LYEmptyView.h>
 
 @interface TipViewManager : NSObject
 
@@ -27,5 +28,8 @@
 
 + (BOOL)showNetErrorToast;
 + (void)showToastMessage:(NSString *)errorMsg;
+
+// 无网界面
++ (LYEmptyView *)netWorkErrorView:(void (^)(void))action;
 
 @end

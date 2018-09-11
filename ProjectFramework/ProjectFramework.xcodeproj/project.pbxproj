@@ -49,6 +49,7 @@
 		E5699F7E2147B70700765FF6 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F7D2147B70700765FF6 /* BaseTableViewController.m */; };
 		E5699F812147C10F00765FF6 /* MatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F802147C10F00765FF6 /* MatchManager.m */; };
 		E5699F842147C1F100765FF6 /* ControllerUtilsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F832147C1F100765FF6 /* ControllerUtilsManager.m */; };
+		E5699F862147CFAA00765FF6 /* empty_weibo@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E5699F852147CFAA00765FF6 /* empty_weibo@2x.PNG */; };
 		E5A5B38F21460790004AD72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B38E21460790004AD72F /* AppDelegate.m */; };
 		E5A5B39221460790004AD72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B39121460790004AD72F /* ViewController.m */; };
 		E5A5B39521460790004AD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B39321460790004AD72F /* Main.storyboard */; };
@@ -191,6 +192,7 @@
 		E5699F802147C10F00765FF6 /* MatchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchManager.m; sourceTree = "<group>"; };
 		E5699F822147C1F100765FF6 /* ControllerUtilsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerUtilsManager.h; sourceTree = "<group>"; };
 		E5699F832147C1F100765FF6 /* ControllerUtilsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerUtilsManager.m; sourceTree = "<group>"; };
+		E5699F852147CFAA00765FF6 /* empty_weibo@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty_weibo@2x.PNG"; sourceTree = "<group>"; };
 		E5A5B38A21460790004AD72F /* ProjectFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A5B38D21460790004AD72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5A5B38E21460790004AD72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -736,6 +738,7 @@
 		E5A5B44A21463CFF004AD72F /* @2x */ = {
 			isa = PBXGroup;
 			children = (
+				E5699F852147CFAA00765FF6 /* empty_weibo@2x.PNG */,
 				E5699F7221478C7900765FF6 /* toast_attention@2x.png */,
 				E5699F6E21478C6300765FF6 /* toast_error@2x.png */,
 				E5699F6A21478C4E00765FF6 /* toast_done@2x.png */,
@@ -908,6 +911,7 @@
 				E5699D8F21467A7700765FF6 /* tab_me_h_24x24_@3x.png in Resources */,
 				E5699D9421467A8400765FF6 /* tab_msn_24x24_@1x.png in Resources */,
 				E5699DA0214753AF00765FF6 /* tabbar_background@3x.png in Resources */,
+				E5699F862147CFAA00765FF6 /* empty_weibo@2x.PNG in Resources */,
 				E5A5B39521460790004AD72F /* Main.storyboard in Resources */,
 				E5A5B44C21463D09004AD72F /* post_originalimage_normal@2x.png in Resources */,
 				E5A5B45021463D1D004AD72F /* post_originalimage_selected@2x.png in Resources */,
