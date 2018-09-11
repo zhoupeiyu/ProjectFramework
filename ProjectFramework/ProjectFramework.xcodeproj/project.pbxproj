@@ -44,6 +44,7 @@
 		E5699F7121478C6C00765FF6 /* toast_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699F7021478C6C00765FF6 /* toast_error@3x.png */; };
 		E5699F7321478C7900765FF6 /* toast_attention@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699F7221478C7900765FF6 /* toast_attention@2x.png */; };
 		E5699F7521478C8000765FF6 /* toast_attention@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699F7421478C7F00765FF6 /* toast_attention@3x.png */; };
+		E5699F782147957800765FF6 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F772147957800765FF6 /* BaseModel.m */; };
 		E5A5B38F21460790004AD72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B38E21460790004AD72F /* AppDelegate.m */; };
 		E5A5B39221460790004AD72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B39121460790004AD72F /* ViewController.m */; };
 		E5A5B39521460790004AD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B39321460790004AD72F /* Main.storyboard */; };
@@ -176,6 +177,8 @@
 		E5699F7021478C6C00765FF6 /* toast_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_error@3x.png"; sourceTree = "<group>"; };
 		E5699F7221478C7900765FF6 /* toast_attention@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_attention@2x.png"; sourceTree = "<group>"; };
 		E5699F7421478C7F00765FF6 /* toast_attention@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_attention@3x.png"; sourceTree = "<group>"; };
+		E5699F762147957800765FF6 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		E5699F772147957800765FF6 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		E5A5B38A21460790004AD72F /* ProjectFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A5B38D21460790004AD72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5A5B38E21460790004AD72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -497,6 +500,8 @@
 			children = (
 				E5699F672147877A00765FF6 /* BaseNetWorkService.h */,
 				E5699F682147877A00765FF6 /* BaseNetWorkService.m */,
+				E5699F762147957800765FF6 /* BaseModel.h */,
+				E5699F772147957800765FF6 /* BaseModel.m */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -970,6 +975,7 @@
 				E5A5B43621461CF6004AD72F /* UIAlertController+Extension.m in Sources */,
 				E5A5B3E221461A87004AD72F /* TZGifPhotoPreviewController.m in Sources */,
 				E5A5B49621464F09004AD72F /* LNRefreshConst.m in Sources */,
+				E5699F782147957800765FF6 /* BaseModel.m in Sources */,
 				E5A5B46D21463FD1004AD72F /* SAMKeychainQuery.m in Sources */,
 				E5A5B3D521461A87004AD72F /* TZAssetCell.m in Sources */,
 				E5699D712146676900765FF6 /* BaseTheme.m in Sources */,

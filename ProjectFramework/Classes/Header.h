@@ -62,7 +62,7 @@
 #import "BaseTheme.h"
 #import "TipViewManager.h"
 #import "BaseNetWorkService.h"
-
+#import "BaseModel.h"
 
 #pragma mark - 第三方
 
