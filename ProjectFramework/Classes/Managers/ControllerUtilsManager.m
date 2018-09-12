@@ -37,7 +37,7 @@
         NSURL *rurl = [NSURL URLWithString:url];
         TOWebViewController *webViewController = [self webViewControllerWithURL:rurl];
         BaseNavigationViewController *nvc = [[BaseNavigationViewController alloc]initWithRootViewController:webViewController];
-        [[UIViewController currentViewController] presentViewController:webViewController animated:YES completion:nil];
+        [[UIViewController currentViewController] presentViewController:nvc animated:YES completion:nil];
         return;
     }
 }

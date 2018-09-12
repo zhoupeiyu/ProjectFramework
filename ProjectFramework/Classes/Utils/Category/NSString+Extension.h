@@ -20,4 +20,6 @@
 
 - (CGSize)getSizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size AndParagraphStyle:(NSParagraphStyle *)paragraphStyle;
 
++ (NSString *)positiveFormat:(NSString *)text;
+
 @end

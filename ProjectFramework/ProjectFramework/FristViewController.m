@@ -9,6 +9,7 @@
 #import "FristViewController.h"
 
 @interface FristViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *lbl;
 
 @end
 
@@ -17,13 +18,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
+    NSString *text = [NSString positiveFormat:@"160000000"];
+    _lbl.text = text;
+    [_lbl sizeToFit];
+    UIColor *color1 = [UIColor redColor];
+    UIColor *color2 = [UIColor blueColor];
+    UIColor *color = [UIColor colorWithGradientStyle:UIGradientStyleLeftToRight withFrame:_lbl.bounds andColors:@[color1,color2]];
+    _lbl.textColor = color;
+    
+    NSMutableArray *familyNameArray = [[NSMutableArray alloc] init];
+    NSArray* familyNamesAll = [UIFont familyNames];
+    for (id family in familyNamesAll) {
+        NSArray* fonts = [UIFont fontNamesForFamilyName:family];
+        for (id font in fonts){
+            [familyNameArray addObject:font];
+        }
+    }
+    DLog(@"所有字体 %@",familyNameArray);
 }
 - (IBAction)Photo:(id)sender {
     
     [[PhotoManager sharedInstance] showPhotoPickForMaxCount:9 presentedViewController:self];
 }
 - (IBAction)Tip:(id)sender {
-    [TipViewManager showToastMessage:@"反馈成功"];
+    
 }
 
 

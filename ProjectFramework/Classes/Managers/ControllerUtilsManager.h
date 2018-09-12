@@ -14,8 +14,6 @@
 
 + (void)showViewWithURL:(NSString *)url;
 
-+ (void)showViewWithURL:(NSString *)url;
-
 + (TOWebViewController *)webViewControllerWithURL:(NSURL *)url;
 
 @end

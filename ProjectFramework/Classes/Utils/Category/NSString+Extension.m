@@ -59,4 +59,15 @@
 }
 
 
++ (NSString *)positiveFormat:(NSString *)text{
+    
+    if(!text || [text floatValue] == 0){
+        return @"0.00";
+    }else{
+        NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+        [numberFormatter setPositiveFormat:@",###;"];
+        return [numberFormatter stringFromNumber:[NSNumber numberWithDouble:[text doubleValue]]];
+    }
+    return @"";
+}
 @end
