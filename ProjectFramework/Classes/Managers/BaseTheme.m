@@ -32,13 +32,13 @@ SYNTHESIZE_SINGLETON_ARC(BaseTheme);
 
 
 + (UIColor *)navBarTitleColor {
-    return [UIColor colorFromRGB:0x131313];
+    return [UIColor colorFromRGB:0xffffff];
 }
 + (UIFont *)navBarTitleFont {
-    return [UIFont systemFontOfSize:18];
+    return [UIFont systemFontOfSize:20];
 }
 + (UIImage *)navBackgroundImage {
-    UIImage *image = [UIImage imageNamed:@"navi_shadow_1x6_"];
+    UIImage *image = [UIImage imageWithColor:[UIColor colorWithHex:0x000000 alpha:0.5]];
     return image;
 }
 + (UIColor *)navBarBottomLineColor {

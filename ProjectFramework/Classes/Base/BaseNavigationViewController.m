@@ -21,7 +21,7 @@
     
     [self.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[BaseTheme navBarTitleColor],NSForegroundColorAttributeName,nil]];
     [self.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[BaseTheme navBarTitleFont],NSFontAttributeName,nil]];
-    [self.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
+    [self.navigationBar setBackgroundImage:[BaseTheme navBackgroundImage] forBarMetrics:UIBarMetricsDefault];
     
     UIView *view = [[UIView alloc] init];
     view.backgroundColor = [BaseTheme navBarBottomLineColor];

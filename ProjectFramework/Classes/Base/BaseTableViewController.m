@@ -8,7 +8,7 @@
 
 #import "BaseTableViewController.h"
 
-@interface BaseTableViewController ()
+@interface BaseTableViewController ()<DZNEmptyDataSetSource, DZNEmptyDataSetDelegate>
 
 @end
 
@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 }
 - (void)dealloc {
     self.tableView.dataSource = nil;
@@ -35,6 +36,48 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     return [[UITableViewCell alloc] init];
 }
+
+- (NSAttributedString *)titleForEmptyDataSet:(UIScrollView *)scrollView {
+    NSString *text = @"数据正在来的路上~";
+    UIFont *font = [UIFont systemFontOfSize:18];
+    UIColor *textColor = [UIColor colorFromRGB:0x131313];
+    NSMutableDictionary *attributes = [NSMutableDictionary new];
+    if (font) [attributes setObject:font forKey:NSFontAttributeName];
+    if (textColor) [attributes setObject:textColor forKey:NSForegroundColorAttributeName];
+    return [[NSAttributedString alloc] initWithString:text attributes:attributes];
+}
+- (NSAttributedString *)descriptionForEmptyDataSet:(UIScrollView *)scrollView {
+    NSString *text = @"加载失败，轻触屏幕重新加载";
+    UIFont *font = [UIFont boldSystemFontOfSize:15.0];;
+    UIColor *textColor = [UIColor colorFromRGB:0x888888];
+    NSMutableDictionary *attributes = [NSMutableDictionary new];
+    NSMutableParagraphStyle *paragraph = [NSMutableParagraphStyle new];
+    paragraph.lineBreakMode = NSLineBreakByWordWrapping;
+    paragraph.alignment = NSTextAlignmentCenter;
+    if (font) [attributes setObject:font forKey:NSFontAttributeName];
+    if (textColor) [attributes setObject:textColor forKey:NSForegroundColorAttributeName];
+    if (paragraph) [attributes setObject:paragraph forKey:NSParagraphStyleAttributeName];
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:text attributes:attributes];
+    return attributedString;
+}
+- (UIImage *)imageForEmptyDataSet:(UIScrollView *)scrollView {
+    return [UIImage imageNamed:@"placeholder_dropbox@2x.png"];
+}
+- (BOOL)emptyDataSetShouldDisplay:(UIScrollView *)scrollView {
+    return YES;
+}
+
+- (BOOL)emptyDataSetShouldAllowTouch:(UIScrollView *)scrollView {
+    return YES;
+}
+
+- (BOOL)emptyDataSetShouldAllowScroll:(UIScrollView *)scrollView {
+    return YES;
+}
+
+- (void)emptyDataSet:(UIScrollView *)scrollView didTapView:(UIView *)view {
+    LLog(@"点击了刷新");
+}
 - (void)enableRefreshHeader:(BOOL)enabled {
     [self enableRefreshHeader:enabled refreshSelector:@selector(reloadData)];
 }
@@ -52,6 +95,7 @@
         MJRefreshAutoNormalFooter *footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:selector];
         [footer setTitle:@"加载更多" forState:MJRefreshStateIdle];
         [footer setTitle:@"加载中..." forState:MJRefreshStateRefreshing];
+        [footer setTitle:@"没有更多数据啦~" forState:MJRefreshStateNoMoreData];
         self.tableView.mj_footer = footer;
     }
     else {
@@ -68,6 +112,7 @@
         [self.tableView.mj_footer endRefreshing];
     }
 }
+
 #pragma mark - lazy
 - (UITableView *)tableView {
     if (!_tableView) {
@@ -75,6 +120,8 @@
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _tableView.dataSource = self;
         _tableView.delegate = self;
+        _tableView.emptyDataSetSource = self;
+        _tableView.emptyDataSetDelegate = self;
         _tableView.backgroundColor = [BaseTheme baseViewColor];
         _tableView.contentInset = UIEdgeInsetsZero;
     }

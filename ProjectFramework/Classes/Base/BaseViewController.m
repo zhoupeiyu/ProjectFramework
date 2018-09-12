@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupConfig];
+    [self setupUI];
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -72,7 +73,7 @@
  *  设置导航默认返回按钮
  */
 - (void)setLeftBackBarButton {
-    [self setLeftBarButtonWithImage:[UIImage imageNamed:@"navi_back_26x26_"] AndHighLightImage:[UIImage imageNamed:@"navi_back_shadow_26x26_"]];
+    [self setLeftBarButtonWithImage:[UIImage imageNamed:@"navi_back_shadow_26x26_"] AndHighLightImage:[UIImage imageNamed:@"navi_back_26x26_"]];
     [_leftBarButton addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
 }
 /**

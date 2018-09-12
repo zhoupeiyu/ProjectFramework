@@ -7,7 +7,7 @@
 //
 
 #import "BaseViewController.h"
-
+#import "BaseTableViewController.h"
 @interface SecondViewController : BaseViewController
 
 @end
