@@ -44,7 +44,6 @@
 }
 
 - (void)setupConfig {
-    self.hidesBottomBarWhenPushed = YES;
     self.view.backgroundColor = [BaseTheme baseViewColor];
 }
 

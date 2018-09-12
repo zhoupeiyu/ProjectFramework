@@ -50,6 +50,12 @@
 		E5699F812147C10F00765FF6 /* MatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F802147C10F00765FF6 /* MatchManager.m */; };
 		E5699F842147C1F100765FF6 /* ControllerUtilsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699F832147C1F100765FF6 /* ControllerUtilsManager.m */; };
 		E5699F862147CFAA00765FF6 /* empty_weibo@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E5699F852147CFAA00765FF6 /* empty_weibo@2x.PNG */; };
+		E5699FBF2148A78900765FF6 /* language_arrow_9x9_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699FBE2148A78900765FF6 /* language_arrow_9x9_@2x.png */; };
+		E5699FC12148A79300765FF6 /* language_arrow_9x9_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699FC02148A79300765FF6 /* language_arrow_9x9_@3x.png */; };
+		E5699FC72148A93B00765FF6 /* TableViewArrow_15x15_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699FC62148A93B00765FF6 /* TableViewArrow_15x15_@2x.png */; };
+		E5699FC92148A94900765FF6 /* TableViewArrowHL_15x15_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699FC82148A94900765FF6 /* TableViewArrowHL_15x15_@2x.png */; };
+		E5699FCB2148AA7700765FF6 /* fav_list_img_default_45x36_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699FCA2148AA7700765FF6 /* fav_list_img_default_45x36_@2x.png */; };
+		E5699FCD2148AA8000765FF6 /* fav_list_img_default_45x36_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699FCC2148AA8000765FF6 /* fav_list_img_default_45x36_@3x.png */; };
 		E5A5B38F21460790004AD72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B38E21460790004AD72F /* AppDelegate.m */; };
 		E5A5B39221460790004AD72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B39121460790004AD72F /* ViewController.m */; };
 		E5A5B39521460790004AD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B39321460790004AD72F /* Main.storyboard */; };
@@ -193,6 +199,12 @@
 		E5699F822147C1F100765FF6 /* ControllerUtilsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerUtilsManager.h; sourceTree = "<group>"; };
 		E5699F832147C1F100765FF6 /* ControllerUtilsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerUtilsManager.m; sourceTree = "<group>"; };
 		E5699F852147CFAA00765FF6 /* empty_weibo@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty_weibo@2x.PNG"; sourceTree = "<group>"; };
+		E5699FBE2148A78900765FF6 /* language_arrow_9x9_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "language_arrow_9x9_@2x.png"; sourceTree = "<group>"; };
+		E5699FC02148A79300765FF6 /* language_arrow_9x9_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "language_arrow_9x9_@3x.png"; sourceTree = "<group>"; };
+		E5699FC62148A93B00765FF6 /* TableViewArrow_15x15_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewArrow_15x15_@2x.png"; sourceTree = "<group>"; };
+		E5699FC82148A94900765FF6 /* TableViewArrowHL_15x15_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewArrowHL_15x15_@2x.png"; sourceTree = "<group>"; };
+		E5699FCA2148AA7700765FF6 /* fav_list_img_default_45x36_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fav_list_img_default_45x36_@2x.png"; sourceTree = "<group>"; };
+		E5699FCC2148AA8000765FF6 /* fav_list_img_default_45x36_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fav_list_img_default_45x36_@3x.png"; sourceTree = "<group>"; };
 		E5A5B38A21460790004AD72F /* ProjectFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A5B38D21460790004AD72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5A5B38E21460790004AD72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -721,6 +733,9 @@
 		E5A5B44921463CFE004AD72F /* @3x */ = {
 			isa = PBXGroup;
 			children = (
+				E5699FCC2148AA8000765FF6 /* fav_list_img_default_45x36_@3x.png */,
+				E5699FC82148A94900765FF6 /* TableViewArrowHL_15x15_@2x.png */,
+				E5699FC02148A79300765FF6 /* language_arrow_9x9_@3x.png */,
 				E5699F7421478C7F00765FF6 /* toast_attention@3x.png */,
 				E5699F7021478C6C00765FF6 /* toast_error@3x.png */,
 				E5699F6C21478C5500765FF6 /* toast_done@3x.png */,
@@ -738,6 +753,9 @@
 		E5A5B44A21463CFF004AD72F /* @2x */ = {
 			isa = PBXGroup;
 			children = (
+				E5699FCA2148AA7700765FF6 /* fav_list_img_default_45x36_@2x.png */,
+				E5699FC62148A93B00765FF6 /* TableViewArrow_15x15_@2x.png */,
+				E5699FBE2148A78900765FF6 /* language_arrow_9x9_@2x.png */,
 				E5699F852147CFAA00765FF6 /* empty_weibo@2x.PNG */,
 				E5699F7221478C7900765FF6 /* toast_attention@2x.png */,
 				E5699F6E21478C6300765FF6 /* toast_error@2x.png */,
@@ -880,15 +898,20 @@
 				E5A5B45621463DB7004AD72F /* navi_shadow_1x6_@2x.png in Resources */,
 				E5A5B49C21464F09004AD72F /* Info.plist in Resources */,
 				E5699D8C21467A6D00765FF6 /* tab_me_24x24_@2x.png in Resources */,
+				E5699FC72148A93B00765FF6 /* TableViewArrow_15x15_@2x.png in Resources */,
 				E5A5B39A21460791004AD72F /* LaunchScreen.storyboard in Resources */,
 				E5A5B45221463D24004AD72F /* post_originalimage_selected@3x.png in Resources */,
 				E5A5B45821463DBE004AD72F /* navi_shadow_1x6_@3x.png in Resources */,
+				E5699FBF2148A78900765FF6 /* language_arrow_9x9_@2x.png in Resources */,
 				E5699D9B21467A9600765FF6 /* tab_msn_24x24_@3x.png in Resources */,
+				E5699FCD2148AA8000765FF6 /* fav_list_img_default_45x36_@3x.png in Resources */,
 				E5699F6B21478C4E00765FF6 /* toast_done@2x.png in Resources */,
 				E5699D8421467A5800765FF6 /* tab_home_h_24x24_@3x.png in Resources */,
 				E5A5B46221463DFD004AD72F /* navi_back_shadow_26x26_@2x.png in Resources */,
 				E5699D9821467A8C00765FF6 /* tab_msn_h_24x24_@2x.png in Resources */,
 				E5699F7121478C6C00765FF6 /* toast_error@3x.png in Resources */,
+				E5699FC92148A94900765FF6 /* TableViewArrowHL_15x15_@2x.png in Resources */,
+				E5699FC12148A79300765FF6 /* language_arrow_9x9_@3x.png in Resources */,
 				E5699D8021467A4600765FF6 /* tab_home_h_24x24_@2x.png in Resources */,
 				E5A5B3DB21461A87004AD72F /* TZImagePickerController.bundle in Resources */,
 				E5699D9E214753A800765FF6 /* tabbar_background@2x.png in Resources */,
@@ -914,6 +937,7 @@
 				E5699F862147CFAA00765FF6 /* empty_weibo@2x.PNG in Resources */,
 				E5A5B39521460790004AD72F /* Main.storyboard in Resources */,
 				E5A5B44C21463D09004AD72F /* post_originalimage_normal@2x.png in Resources */,
+				E5699FCB2148AA7700765FF6 /* fav_list_img_default_45x36_@2x.png in Resources */,
 				E5A5B45021463D1D004AD72F /* post_originalimage_selected@2x.png in Resources */,
 				E5A5B46021463DF5004AD72F /* navi_back_shadow_26x26_@1x.png in Resources */,
 				E5699D8821467A6400765FF6 /* tab_me_24x24_@1x.png in Resources */,

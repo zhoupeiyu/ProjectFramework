@@ -113,26 +113,26 @@ SYNTHESIZE_SINGLETON_ARC(TipViewManager);
 + (void)showToastMessage:(NSString *)errorMsg {
     return [[self sharedInstance] showToastMessage:errorMsg];
 }
+
 + (LYEmptyView *)netWorkErrorView:(void (^)(void))action; {
-    WS(weakSelf);
-    LYEmptyView *emptyView = [LYEmptyView emptyActionViewWithImageStr:@"empty_weibo"
+    LYEmptyView *emptyView = [LYEmptyView emptyActionViewWithImageStr:@"empty_weibo@2x.PNG"
                                                              titleStr:@"网络出错了，请点击按钮重新加载"
                                                             detailStr:@""
                                                           btnTitleStr:@"重新加载"
                                                         btnClickBlock:action];
-    emptyView.subViewMargin = 28.f;
+    emptyView.subViewMargin = 20.f;
     emptyView.contentViewOffset = - 50;
     
     emptyView.titleLabFont = [UIFont systemFontOfSize:14.f];
     emptyView.titleLabTextColor = MainColor(199, 199, 199);
     
-    emptyView.actionBtnFont = [UIFont boldSystemFontOfSize:16.f];
+    emptyView.actionBtnFont = [UIFont systemFontOfSize:16];
     emptyView.actionBtnTitleColor = MainColor(70, 70, 70);
     emptyView.actionBtnHeight = 40.f;
     emptyView.actionBtnHorizontalMargin = 62.f;
     emptyView.actionBtnCornerRadius = 2.f;
     emptyView.actionBtnBorderColor = MainColor(204, 204, 204);
-    emptyView.actionBtnBorderWidth = 0.5;
+    emptyView.actionBtnBorderWidth = KSeparatorLineHeight;
     emptyView.actionBtnBackGroundColor = [BaseTheme baseViewColor];
     return emptyView;
 }
