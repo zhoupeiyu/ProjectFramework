@@ -110,6 +110,10 @@ pod 'BMKLocationKit'
 # TOWebViewController
 pod 'TOWebViewController', '~> 2.2.8'
 
+#表单
+pod 'XLForm'
+
+#pod 'GrowingTextView'
 
   # Pods for ProjectFramework
 

@@ -64,6 +64,7 @@ PODS:
     - UMCCommon
   - UMCCommon (1.5.2)
   - UMCSecurityPlugins (1.0.6)
+  - XLForm (3.3.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -99,6 +100,7 @@ DEPENDENCIES:
   - UMCAnalytics
   - UMCCommon
   - UMCSecurityPlugins
+  - XLForm
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -137,6 +139,7 @@ SPEC REPOS:
     - UMCAnalytics
     - UMCCommon
     - UMCSecurityPlugins
+    - XLForm
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -174,7 +177,8 @@ SPEC CHECKSUMS:
   UMCAnalytics: 0aff87e39008e2a650e5917430db0da2de2f8495
   UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
   UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  XLForm: d5c391dfc62865927b5bcab0a5a0dbfb3e02b0ec
 
-PODFILE CHECKSUM: f39cbac9378dd31c192848d6623985cd39a7054a
+PODFILE CHECKSUM: 25a4bde09b398ae2c2a890c02945a1bdec7dbe79
 
 COCOAPODS: 1.5.3
