@@ -11,8 +11,6 @@
 
 // 常用宏
 #import "Standard.h"
-// 自定义宏
-#import "Define.h"
 
 
 #pragma mark - 系统
@@ -24,8 +22,8 @@
 #import "BaseNavigationViewController.h"
 #import "BaseViewController.h"
 #import "ModuleHeader.h"
-
-
+#import "ThirdPartyKey.h"
+#import "NotificationName.h"
 
 #pragma mark - 分类
 #import "LFCategoryMacro.h"

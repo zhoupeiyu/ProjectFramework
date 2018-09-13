@@ -11,6 +11,16 @@
 
 // 这个文件导入自己项目中的头文件
 
+
+
+#import "UserModel.h"
+#import "ServiceInterface.h"
+#import "ServiceInterfaceType.h"
+
+
+
+
+
 #import "FristViewController.h"
 #import "SecondViewController.h"
 #import "ThirdViewController.h"

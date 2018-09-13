@@ -38,7 +38,7 @@ SYNTHESIZE_SINGLETON_ARC(BaseTheme);
     return [UIFont systemFontOfSize:20];
 }
 + (UIImage *)navBackgroundImage {
-    UIImage *image = [UIImage imageWithColor:[UIColor colorWithHex:0x000000 alpha:0.5]];
+    UIImage *image = [UIImage imageWithColor:[UIColor colorWithHex:0x3b3b4d alpha:1]];
     return image;
 }
 + (UIColor *)navBarBottomLineColor {

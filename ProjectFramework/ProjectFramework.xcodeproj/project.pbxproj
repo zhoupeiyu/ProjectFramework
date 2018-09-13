@@ -57,6 +57,9 @@
 		E5699FCB2148AA7700765FF6 /* fav_list_img_default_45x36_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699FCA2148AA7700765FF6 /* fav_list_img_default_45x36_@2x.png */; };
 		E5699FCD2148AA8000765FF6 /* fav_list_img_default_45x36_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699FCC2148AA8000765FF6 /* fav_list_img_default_45x36_@3x.png */; };
 		E5699FCF2148B59900765FF6 /* placeholder_dropbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5699FCE2148B59900765FF6 /* placeholder_dropbox@2x.png */; };
+		E5699FFC2149662E00765FF6 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699FFB2149662E00765FF6 /* UserModel.m */; };
+		E5699FFF2149666B00765FF6 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = E5699FFE2149666B00765FF6 /* UserService.m */; };
+		E569A143214A481C00765FF6 /* NotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = E569A142214A481C00765FF6 /* NotificationName.m */; };
 		E5A5B38F21460790004AD72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B38E21460790004AD72F /* AppDelegate.m */; };
 		E5A5B39221460790004AD72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B39121460790004AD72F /* ViewController.m */; };
 		E5A5B39521460790004AD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B39321460790004AD72F /* Main.storyboard */; };
@@ -207,6 +210,16 @@
 		E5699FCA2148AA7700765FF6 /* fav_list_img_default_45x36_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fav_list_img_default_45x36_@2x.png"; sourceTree = "<group>"; };
 		E5699FCC2148AA8000765FF6 /* fav_list_img_default_45x36_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fav_list_img_default_45x36_@3x.png"; sourceTree = "<group>"; };
 		E5699FCE2148B59900765FF6 /* placeholder_dropbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder_dropbox@2x.png"; sourceTree = "<group>"; };
+		E5699FFA2149662E00765FF6 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		E5699FFB2149662E00765FF6 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		E5699FFD2149666B00765FF6 /* UserService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		E5699FFE2149666B00765FF6 /* UserService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		E569A000214966FC00765FF6 /* ServiceInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceInterface.h; sourceTree = "<group>"; };
+		E569A001214967F500765FF6 /* EnumType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumType.h; sourceTree = "<group>"; };
+		E569A0022149696100765FF6 /* ServiceInterfaceType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceInterfaceType.h; sourceTree = "<group>"; };
+		E569A13C214A45AF00765FF6 /* ThirdPartyKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdPartyKey.h; sourceTree = "<group>"; };
+		E569A141214A481C00765FF6 /* NotificationName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationName.h; sourceTree = "<group>"; };
+		E569A142214A481C00765FF6 /* NotificationName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationName.m; sourceTree = "<group>"; };
 		E5A5B38A21460790004AD72F /* ProjectFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A5B38D21460790004AD72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5A5B38E21460790004AD72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -255,7 +268,6 @@
 		E5A5B3E421461AEA004AD72F /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
 		E5A5B3E621461B0A004AD72F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E5A5B3E721461B32004AD72F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		E5A5B3E821461BF6004AD72F /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		E5A5B3E921461C19004AD72F /* Standard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Standard.h; sourceTree = "<group>"; };
 		E5A5B3EA21461CF3004AD72F /* UIAlertController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extension.h"; sourceTree = "<group>"; };
 		E5A5B3EC21461CF3004AD72F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
@@ -401,6 +413,8 @@
 				E5699D7621467A2E00765FF6 /* @1x */,
 				E5699D7721467A2E00765FF6 /* @2x */,
 				E5699D7821467A2E00765FF6 /* @3x */,
+				E5699FF9214965F700765FF6 /* Models */,
+				E5699FF8214965F700765FF6 /* Service */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -442,6 +456,27 @@
 				E5699D8221467A5800765FF6 /* tab_home_h_24x24_@3x.png */,
 			);
 			path = "@3x";
+			sourceTree = "<group>";
+		};
+		E5699FF8214965F700765FF6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E5699FFD2149666B00765FF6 /* UserService.h */,
+				E5699FFE2149666B00765FF6 /* UserService.m */,
+				E569A000214966FC00765FF6 /* ServiceInterface.h */,
+				E569A0022149696100765FF6 /* ServiceInterfaceType.h */,
+				E569A001214967F500765FF6 /* EnumType.h */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E5699FF9214965F700765FF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5699FFA2149662E00765FF6 /* UserModel.h */,
+				E5699FFB2149662E00765FF6 /* UserModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E5A5B38121460790004AD72F = {
@@ -501,8 +536,10 @@
 				E5A5B3E621461B0A004AD72F /* PrefixHeader.pch */,
 				E5A5B3E721461B32004AD72F /* Header.h */,
 				E5699F662147685C00765FF6 /* ModuleHeader.h */,
-				E5A5B3E821461BF6004AD72F /* Define.h */,
 				E5A5B3E921461C19004AD72F /* Standard.h */,
+				E569A13C214A45AF00765FF6 /* ThirdPartyKey.h */,
+				E569A141214A481C00765FF6 /* NotificationName.h */,
+				E569A142214A481C00765FF6 /* NotificationName.m */,
 				E5A5B3A921461943004AD72F /* Managers */,
 				E5A5B3A521461943004AD72F /* Images */,
 				E5A5B3A621461943004AD72F /* NetWork */,
@@ -1045,6 +1082,7 @@
 				E5A5B49A21464F09004AD72F /* NSObject+LNRefresh.m in Sources */,
 				E5A5B49921464F09004AD72F /* LNFooterAnimator.m in Sources */,
 				E5A5B38F21460790004AD72F /* AppDelegate.m in Sources */,
+				E569A143214A481C00765FF6 /* NotificationName.m in Sources */,
 				E5A5B3D421461A87004AD72F /* TZImageCropManager.m in Sources */,
 				E5A5B43121461CF6004AD72F /* UIColor+Utility.m in Sources */,
 				E5A5B42721461CF6004AD72F /* NSArray+Extension.m in Sources */,
@@ -1069,6 +1107,8 @@
 				E5A5B46C21463FD1004AD72F /* DeviceID.m in Sources */,
 				E5A5B49421464F09004AD72F /* LNRefreshAnimator.m in Sources */,
 				E5A5B3D921461A87004AD72F /* UIView+Layout.m in Sources */,
+				E5699FFF2149666B00765FF6 /* UserService.m in Sources */,
+				E5699FFC2149662E00765FF6 /* UserModel.m in Sources */,
 				E5699D6E2146592B00765FF6 /* LocationManager.m in Sources */,
 				E5A5B43821461CF6004AD72F /* NSObject+Runtime.m in Sources */,
 				E5A5B43721461CF6004AD72F /* UIImage+Utility.m in Sources */,
