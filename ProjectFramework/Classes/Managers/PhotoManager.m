@@ -14,23 +14,59 @@
 @property (nonatomic, weak) UIViewController *presentedVC;
 @property (nonatomic, strong) UIImagePickerController *imagePickerVc;
 @property (nonatomic, strong) NSMutableArray *imageArr;
-
+@property (nonatomic, assign) PhotoPickType photoPickType;
 @end
 @implementation PhotoManager
 
 SYNTHESIZE_SINGLETON_ARC(PhotoManager);
 
-- (void)showPhotoPickForMaxCount:(NSInteger)maxCount presentedViewController:(UIViewController *)presentedVC {
+- (void)showPhotoPickForMaxCount:(NSInteger)maxCount presentedViewController:(UIViewController *)presentedVC photoPickType:(PhotoPickType)photoPickType{
     self.maxCount = maxCount;
     self.presentedVC = presentedVC;
+    self.photoPickType = photoPickType;
+    
     if (_imageArr.count > 0) {
         [_imageArr removeAllObjects];
     }
-    UIActionSheet * actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"拍照",@"图库", nil];
-    actionSheet.tag = 101;
-    [actionSheet showInView:self.presentedVC.view];
+    [self showPickView];
 }
 
+- (void)showPickView {
+    if (self.photoPickType == PhotoPickTypeSystem) {
+        UIActionSheet * actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"拍照",@"图库", nil];
+        actionSheet.tag = 101;
+        [actionSheet showInView:self.presentedVC.view];
+    }
+    else if (self.photoPickType == PhotoPickTypeWeChat) {
+        WS(weakSelf);
+        UIColor *titleColor = [UIColor colorFromRGB:0x444152];
+        UIFont *titleFont = [UIFont systemFontOfSize:18];
+        SPAlertController *alertController = [SPAlertController alertControllerWithTitle:@"" message:@"" preferredStyle:SPAlertControllerStyleActionSheet animationType:SPAlertAnimationTypeRaiseUp];
+        
+        SPAlertAction *photoAction = [SPAlertAction actionWithTitle:@"拍照或录像" style:SPAlertActionStyleDefault handler:^(SPAlertAction * _Nonnull action) {
+            [weakSelf takePhoto];
+        }];
+        photoAction.titleFont = titleFont;
+        photoAction.titleColor = titleColor;
+        
+        SPAlertAction *albumAction = [SPAlertAction actionWithTitle:@"照片图库" style:SPAlertActionStyleDefault handler:^(SPAlertAction * _Nonnull action) {
+            [self localPhoto];
+        }];
+        albumAction.titleFont = titleFont;
+        albumAction.titleColor = titleColor;
+        
+        SPAlertAction *cancelAction = [SPAlertAction actionWithTitle:@"取消" style:SPAlertActionStyleCancel handler:^(SPAlertAction * _Nonnull action) {
+            
+        }];
+        cancelAction.titleFont = titleFont;
+        cancelAction.titleColor = titleColor;
+        
+        [alertController addAction:photoAction];
+        [alertController addAction:albumAction];
+        [alertController addAction:cancelAction];
+        [self.presentedVC presentViewController:alertController animated:YES completion:nil];
+    }
+}
 - (NSMutableArray *)selectedImages {
     return self.imageArr;
 }

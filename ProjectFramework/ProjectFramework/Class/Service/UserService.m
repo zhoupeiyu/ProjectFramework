@@ -116,6 +116,114 @@
     [self POST:KUserFeedBackInterface reqType:KUserFeedBackRequest delegate:delegate parameters:params ObjcClass:[BaseModel class] NeedCache:NO];
 }
 - (void)getCityListDelegate:(id)delegate {
+     [self POST:KCityListInterface reqType:KCityListRequest delegate:delegate parameters:nil ObjcClass:[CityListModel class] NeedCache:NO];
+}
+- (void)getBannerWithCityID:(NSString *)city delegate:(id)delegate {
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    if (city.length > 0) {
+        [params setObject:city forKey:@"cityId"];
+    }
+    [self POST:KBannerInterface reqType:KBannerRequest delegate:delegate parameters:params ObjcClass:[BannerListModel class] NeedCache:NO];
+}
+
+- (void)getNewList:(NewListType)listType lastId:(NSString *)lastId delegate:(id)delegate {
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    [params setObject:@(listType) forKey:@"type"];
+    if (lastId.length > 0) {
+        [params setObject:lastId forKey:@"lastId"];
+    }
+    [params setObject:@(20) forKey:@"pageSize"];
+    NSString *type = listType == NewListTypePopularInformation ? KGetNewsListPopInfoRequest : KGetNewsListSysNotiRequest;
+    [self POST:KGetNewsListInterface reqType:type delegate:delegate parameters:params ObjcClass:[NewListModel class] NeedCache:NO];
+
+}
+
+- (void)getNewDetail:(NSString *)newsID delegate:(id)delegate {
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    [params setObject:newsID forKey:@"newsId"];
+    [self POST:KGetNewsDetailInterface reqType:KGetNewsDetailRequest delegate:delegate parameters:params ObjcClass:[NewDetailContenModel class] NeedCache:NO];
     
 }
+
+- (void)getCommentQuestionList:(NSString *)lastID delegate:(id)delegate {
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    if (lastID.length > 0) {
+        [params setObject:lastID forKey:@"lastId"];
+    }
+    [params setObject:@(20) forKey:@"pageSize"];
+    [self POST:KGetCommentQuestionListInterface reqType:KGetCommentQuestionListRequest delegate:delegate parameters:params ObjcClass:[CommentQuestionListModel class] NeedCache:NO];
+}
+
+- (void)getCommentQuestionDetail:(NSString *)faqId delegate:(id)delegate {
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    [params setObject:faqId forKey:@"faqId"];
+    [self POST:KGetCommentQuestionDetailInterface reqType:KGetCommentQuestionDetailRequest delegate:delegate parameters:params ObjcClass:[CommentQuestionListModel class] NeedCache:NO];
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @end

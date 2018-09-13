@@ -10,34 +10,80 @@
 #define ServiceInterface_h
 
 // 图片验证码
-#define KGetImageCodeInterface                      @"api/sms/drawImgValidateCode"
+#define KGetImageCodeInterface                          @"api/sms/drawImgValidateCode"
 
 // 手机验证码
-#define KGetPhoneCodeInterface                      @"api/sms/getValidateCode"
+#define KGetPhoneCodeInterface                          @"api/sms/getValidateCode"
 
 // 用户注册
-#define KUserRegisterInterface                      @"api/user/register"
+#define KUserRegisterInterface                          @"api/user/register"
 
 // 用户登录
-#define KUserLoginInterface                         @"api/user/login"
+#define KUserLoginInterface                             @"api/user/login"
 
 // 重置密码
-#define KUserResetPasswordInterface                 @"api/user/resetPwd"
+#define KUserResetPasswordInterface                     @"api/user/resetPwd"
 
 // 更换手机号
-#define KUserResetPhoneInterface                    @"user/resetPhone"
+#define KUserResetPhoneInterface                        @"user/resetPhone"
 
 // 更新用户信息
-#define KUserUpdateInfoInterface                    @"api/user/resetUserInfo"
+#define KUserUpdateInfoInterface                        @"api/user/resetUserInfo"
 
 // 实名认证
-#define KUserValidationIdCardInterface              @"api/user/validationIdCard"
+#define KUserValidationIdCardInterface                  @"api/user/validationIdCard"
 
 // 公司认证
-#define KUserValidationCompanyInterface             @"api/user/validationCompany"
+#define KUserValidationCompanyInterface                 @"api/user/validationCompany"
 
 // 意见反馈
-#define KUserFeedBackInterface                      @"api/user/feedBack"
+#define KUserFeedBackInterface                          @"api/user/feedBack"
+
+// 城市列表
+#define KCityListInterface                              @"api/index/citys"
+
+// banner
+#define KBannerInterface                                @"api/index/banners"
+
+// 获取公告/ 资讯
+#define KGetNewsListInterface                           @"api/index/news"
+
+// 公告/资讯详情
+#define KGetNewsDetailInterface                         @"api/index/newsInfo"
+
+// 问题列表
+#define KGetCommentQuestionListInterface                @"api/index/faqs"
+
+// 问题详情
+#define KGetCommentQuestionDetailInterface              @"api/index/faqInfo"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

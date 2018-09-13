@@ -19,7 +19,7 @@
     
 }
 - (IBAction)Photo:(id)sender {
-    [[PhotoManager sharedInstance] showPhotoPickForMaxCount:9 presentedViewController:self];
+
 }
 
 @end

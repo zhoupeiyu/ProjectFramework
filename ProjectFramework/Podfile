@@ -113,6 +113,9 @@ pod 'TOWebViewController', '~> 2.2.8'
 #表单
 pod 'XLForm'
 
+# 仿微信弹窗
+pod 'SPAlertController', '~> 1.0.1'
+
 #pod 'GrowingTextView'
 
   # Pods for ProjectFramework

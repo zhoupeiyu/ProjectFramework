@@ -38,18 +38,18 @@
 }
 
 - (NSAttributedString *)titleForEmptyDataSet:(UIScrollView *)scrollView {
-    NSString *text = @"数据正在来的路上~";
-    UIFont *font = [UIFont systemFontOfSize:18];
-    UIColor *textColor = [UIColor colorFromRGB:0x131313];
+    NSString *text = @"无数据";
+    UIFont *font = [UIFont fontWithName:@"MicrosoftYaHei" size:21];
+    UIColor *textColor = [UIColor colorFromRGB:0x474455];
     NSMutableDictionary *attributes = [NSMutableDictionary new];
     if (font) [attributes setObject:font forKey:NSFontAttributeName];
     if (textColor) [attributes setObject:textColor forKey:NSForegroundColorAttributeName];
     return [[NSAttributedString alloc] initWithString:text attributes:attributes];
 }
 - (NSAttributedString *)descriptionForEmptyDataSet:(UIScrollView *)scrollView {
-    NSString *text = @"加载失败，轻触屏幕重新加载";
-    UIFont *font = [UIFont boldSystemFontOfSize:15.0];;
-    UIColor *textColor = [UIColor colorFromRGB:0x888888];
+    NSString *text = @"当前没有相应数据，快去看看别的吧！";
+    UIFont *font = [UIFont fontWithName:@"MicrosoftYaHei" size:16];
+    UIColor *textColor = [UIColor colorWithHex:0x666666 alpha:0.7];
     NSMutableDictionary *attributes = [NSMutableDictionary new];
     NSMutableParagraphStyle *paragraph = [NSMutableParagraphStyle new];
     paragraph.lineBreakMode = NSLineBreakByWordWrapping;
@@ -61,7 +61,10 @@
     return attributedString;
 }
 - (UIImage *)imageForEmptyDataSet:(UIScrollView *)scrollView {
-    return [UIImage imageNamed:@"placeholder_dropbox@2x.png"];
+    return [UIImage imageNamed:@"currency_no_data"];
+}
+- (CGFloat)verticalOffsetForEmptyDataSet:(UIScrollView *)scrollView {
+    return - kNavigationBarH;
 }
 - (BOOL)emptyDataSetShouldDisplay:(UIScrollView *)scrollView {
     return YES;

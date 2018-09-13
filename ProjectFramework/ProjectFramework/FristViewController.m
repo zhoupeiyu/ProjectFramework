@@ -38,7 +38,7 @@
 }
 - (IBAction)Photo:(id)sender {
     
-    [[PhotoManager sharedInstance] showPhotoPickForMaxCount:9 presentedViewController:self];
+    [[PhotoManager sharedInstance] showPhotoPickForMaxCount:9 presentedViewController:self photoPickType:PhotoPickTypeWeChat];
 }
 - (IBAction)Tip:(id)sender {
     

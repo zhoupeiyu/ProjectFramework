@@ -141,6 +141,11 @@
 		E5A5B49A21464F09004AD72F /* NSObject+LNRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B48721464F09004AD72F /* NSObject+LNRefresh.m */; };
 		E5A5B49B21464F09004AD72F /* LNHeaderAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5B48D21464F09004AD72F /* LNHeaderAnimator.m */; };
 		E5A5B49C21464F09004AD72F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5A5B49221464F09004AD72F /* Info.plist */; };
+		E5AC9B8C214AB6CF00B90054 /* OrderService.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AC9B8B214AB6CF00B90054 /* OrderService.m */; };
+		E5B598C7214AC12100726DE9 /* currency_no_data@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B598C6214AC12100726DE9 /* currency_no_data@2x.png */; };
+		E5B598C9214AC13200726DE9 /* currency_no_data@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B598C8214AC13200726DE9 /* currency_no_data@3x.png */; };
+		E5B598CB214AC42E00726DE9 /* currency_no_network@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B598CA214AC42E00726DE9 /* currency_no_network@2x.png */; };
+		E5B598CD214AC43900726DE9 /* currency_no_network@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B598CC214AC43800726DE9 /* currency_no_network@3x.png */; };
 		F9894D6637F216B8BD532710 /* libPods-ProjectFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6420FF032480D49DD14D4B2C /* libPods-ProjectFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -374,6 +379,12 @@
 		E5A5B49021464F09004AD72F /* LNRefreshHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRefreshHandler.h; sourceTree = "<group>"; };
 		E5A5B49121464F09004AD72F /* LNRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRefresh.h; sourceTree = "<group>"; };
 		E5A5B49221464F09004AD72F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5AC9B8A214AB6CF00B90054 /* OrderService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderService.h; sourceTree = "<group>"; };
+		E5AC9B8B214AB6CF00B90054 /* OrderService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderService.m; sourceTree = "<group>"; };
+		E5B598C6214AC12100726DE9 /* currency_no_data@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "currency_no_data@2x.png"; sourceTree = "<group>"; };
+		E5B598C8214AC13200726DE9 /* currency_no_data@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "currency_no_data@3x.png"; sourceTree = "<group>"; };
+		E5B598CA214AC42E00726DE9 /* currency_no_network@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "currency_no_network@2x.png"; sourceTree = "<group>"; };
+		E5B598CC214AC43800726DE9 /* currency_no_network@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "currency_no_network@3x.png"; sourceTree = "<group>"; };
 		F64B80FFD5589CAFAA3D1B45 /* Pods-ProjectFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectFramework/Pods-ProjectFramework.release.xcconfig"; sourceTree = "<group>"; };
 		FF82BD666239B02C8F2D45C7 /* Pods-ProjectFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectFramework/Pods-ProjectFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -463,6 +474,8 @@
 			children = (
 				E5699FFD2149666B00765FF6 /* UserService.h */,
 				E5699FFE2149666B00765FF6 /* UserService.m */,
+				E5AC9B8A214AB6CF00B90054 /* OrderService.h */,
+				E5AC9B8B214AB6CF00B90054 /* OrderService.m */,
 				E569A000214966FC00765FF6 /* ServiceInterface.h */,
 				E569A0022149696100765FF6 /* ServiceInterfaceType.h */,
 				E569A001214967F500765FF6 /* EnumType.h */,
@@ -772,6 +785,8 @@
 		E5A5B44921463CFE004AD72F /* @3x */ = {
 			isa = PBXGroup;
 			children = (
+				E5B598CC214AC43800726DE9 /* currency_no_network@3x.png */,
+				E5B598C8214AC13200726DE9 /* currency_no_data@3x.png */,
 				E5699FCC2148AA8000765FF6 /* fav_list_img_default_45x36_@3x.png */,
 				E5699FC82148A94900765FF6 /* TableViewArrowHL_15x15_@2x.png */,
 				E5699FC02148A79300765FF6 /* language_arrow_9x9_@3x.png */,
@@ -792,6 +807,8 @@
 		E5A5B44A21463CFF004AD72F /* @2x */ = {
 			isa = PBXGroup;
 			children = (
+				E5B598CA214AC42E00726DE9 /* currency_no_network@2x.png */,
+				E5B598C6214AC12100726DE9 /* currency_no_data@2x.png */,
 				E5699FCE2148B59900765FF6 /* placeholder_dropbox@2x.png */,
 				E5699FCA2148AA7700765FF6 /* fav_list_img_default_45x36_@2x.png */,
 				E5699FC62148A93B00765FF6 /* TableViewArrow_15x15_@2x.png */,
@@ -940,12 +957,14 @@
 				E5699D8C21467A6D00765FF6 /* tab_me_24x24_@2x.png in Resources */,
 				E5699FC72148A93B00765FF6 /* TableViewArrow_15x15_@2x.png in Resources */,
 				E5A5B39A21460791004AD72F /* LaunchScreen.storyboard in Resources */,
+				E5B598CB214AC42E00726DE9 /* currency_no_network@2x.png in Resources */,
 				E5A5B45221463D24004AD72F /* post_originalimage_selected@3x.png in Resources */,
 				E5A5B45821463DBE004AD72F /* navi_shadow_1x6_@3x.png in Resources */,
 				E5699FBF2148A78900765FF6 /* language_arrow_9x9_@2x.png in Resources */,
 				E5699D9B21467A9600765FF6 /* tab_msn_24x24_@3x.png in Resources */,
 				E5699FCD2148AA8000765FF6 /* fav_list_img_default_45x36_@3x.png in Resources */,
 				E5699F6B21478C4E00765FF6 /* toast_done@2x.png in Resources */,
+				E5B598CD214AC43900726DE9 /* currency_no_network@3x.png in Resources */,
 				E5699D8421467A5800765FF6 /* tab_home_h_24x24_@3x.png in Resources */,
 				E5A5B46221463DFD004AD72F /* navi_back_shadow_26x26_@2x.png in Resources */,
 				E5699D9821467A8C00765FF6 /* tab_msn_h_24x24_@2x.png in Resources */,
@@ -955,6 +974,7 @@
 				E5699D8021467A4600765FF6 /* tab_home_h_24x24_@2x.png in Resources */,
 				E5A5B3DB21461A87004AD72F /* TZImagePickerController.bundle in Resources */,
 				E5699D9E214753A800765FF6 /* tabbar_background@2x.png in Resources */,
+				E5B598C7214AC12100726DE9 /* currency_no_data@2x.png in Resources */,
 				E5A5B45E21463DDD004AD72F /* navi_back_26x26_@3x.png in Resources */,
 				E5699D9021467A7700765FF6 /* tab_me_24x24_@3x.png in Resources */,
 				E5A5B45C21463DD6004AD72F /* navi_back_26x26_@2x.png in Resources */,
@@ -974,6 +994,7 @@
 				E5699D8F21467A7700765FF6 /* tab_me_h_24x24_@3x.png in Resources */,
 				E5699D9421467A8400765FF6 /* tab_msn_24x24_@1x.png in Resources */,
 				E5699DA0214753AF00765FF6 /* tabbar_background@3x.png in Resources */,
+				E5B598C9214AC13200726DE9 /* currency_no_data@3x.png in Resources */,
 				E5699F862147CFAA00765FF6 /* empty_weibo@2x.PNG in Resources */,
 				E5A5B39521460790004AD72F /* Main.storyboard in Resources */,
 				E5A5B44C21463D09004AD72F /* post_originalimage_normal@2x.png in Resources */,
@@ -1054,6 +1075,7 @@
 				E5A5B43921461CF6004AD72F /* UIViewController+Extension.m in Sources */,
 				E5A5B39221460790004AD72F /* ViewController.m in Sources */,
 				E5A5B47B2146404B004AD72F /* LNHeaderDIYAnimator.m in Sources */,
+				E5AC9B8C214AB6CF00B90054 /* OrderService.m in Sources */,
 				E5699F652147659200765FF6 /* ThirdViewController.m in Sources */,
 				E5A5B43321461CF6004AD72F /* UIFont+Utility.m in Sources */,
 				E5A5B43421461CF6004AD72F /* NSArray+Log.m in Sources */,

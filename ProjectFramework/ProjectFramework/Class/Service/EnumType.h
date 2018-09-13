@@ -7,3 +7,9 @@ typedef enum : NSUInteger {
     ImageCodeTypeResetPhone // 绑定新手机
 } ImageCodeType;
 
+#pragma mark - 公告/咨询列表
+
+typedef enum : NSUInteger {
+    NewListTypePopularInformation = 0, // 热门资讯
+    NewListTypeSystemNotification = 1 // 系统公告
+} NewListType;

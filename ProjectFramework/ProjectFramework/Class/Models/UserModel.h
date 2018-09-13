@@ -125,3 +125,192 @@
 @property (nonatomic, strong) UserInfoModel *data;
 
 @end
+
+#pragma mark - 城市列表
+
+@interface CityDetailModel : NSObject
+
+@property (nonatomic, strong) NSString *id;
+@property (nonatomic, strong) NSString *name;
+
+@end
+
+@interface CityListModel : BaseModel
+@property (nonatomic, strong) NSArray *data;
+
++ (NSArray *)getCityList;
+
+@end
+
+
+#pragma mark - banner
+
+@interface BannerModel : NSObject
+//banner id
+@property (nonatomic, strong) NSString *id;
+//标题
+@property (nonatomic, strong) NSString *title;
+//banner图片URL
+@property (nonatomic, strong) NSString *imgUrl;
+// banner点击跳转地址，为空时点击不跳转
+@property (nonatomic, strong) NSString *href;
+
+@end
+
+@interface BannerListModel : BaseModel
+
+@property (nonatomic, strong) NSArray *data;
+
+@end
+
+#pragma mark - 热门资讯 / 系统公告
+
+@interface NewDetailModel : NSObject
+
+//id标识
+@property (nonatomic, strong) NSString *id;
+//标题
+@property (nonatomic, strong) NSString *title;
+//摘要
+@property (nonatomic, strong) NSString *roundup;
+//封面图片URL
+@property (nonatomic, strong) NSString *imgUrl;
+//发布时间,格式：yyyy/MM/dd HH:mm:ss "2018/09/09 09:09:09",
+@property (nonatomic, strong) NSString *updateTime;
+// 类型：1=热门资讯-活动，2=热门资讯-资讯；4=系统公告
+@property (nonatomic, strong) NSString *newsType;
+//点击量
+@property (nonatomic, strong) NSString *readers;
+//来源媒体
+@property (nonatomic, strong) NSString *sourceName;
+//原文链接地址
+@property (nonatomic, strong) NSString *sourceUrl;
+
+
+@end
+
+@interface NewListModel : BaseModel
+
+@property (nonatomic, strong) NSArray *data;
+@end
+
+#pragma mark - 资讯详情
+
+@interface NewDetailContensModel : NSObject
+
+//id标识
+@property (nonatomic, strong) NSString *id;
+//标题
+@property (nonatomic, strong) NSString *title;
+//摘要
+@property (nonatomic, strong) NSString *roundup;
+//关键字
+@property (nonatomic, strong) NSString *keyword;
+//封面图片URL
+@property (nonatomic, strong) NSString *imgUrl;
+//内容：html格式
+@property (nonatomic, strong) NSString *content;
+//发布时间
+@property (nonatomic, strong) NSString *updateTime;
+//类型：1=热门资讯-活动，2=热门资讯-资讯；4=系统公告
+@property (nonatomic, strong) NSString *newsType;
+//点击量
+@property (nonatomic, strong) NSString *readers;
+//来源媒体
+@property (nonatomic, strong) NSString *sourceName;
+//原文链接地址
+@property (nonatomic, strong) NSString *sourceUrl;
+
+@end
+@interface NewDetailContenModel : BaseModel
+@property (nonatomic, strong) NewDetailContensModel *data;
+@end
+
+#pragma mark - 问题列表
+
+@interface CommentQuestionModel : NSObject
+//id标识
+@property (nonatomic, strong) NSString *id;
+//标题
+@property (nonatomic, strong) NSString *title;
+//内容
+@property (nonatomic, strong) NSString *faqBody;
+//发布时间,格式：yyyy/MM/dd HH:mm:ss
+@property (nonatomic, strong) NSString *updateTime;
+
+
+@end
+@interface CommentQuestionListModel : BaseModel
+
+@property (nonatomic, strong) NSArray *data;
+@end
+
+#pragma mark - 问题详情
+@interface CommentQuestionDetailContentModel : NSObject
+//id标识
+@property (nonatomic, strong) NSString *id;
+//标题
+@property (nonatomic, strong) NSString *title;
+//内容
+@property (nonatomic, strong) NSString *faqBody;
+//发布时间,格式：yyyy/MM/dd HH:mm:ss
+@property (nonatomic, strong) NSString *updateTime;
+//封面图片URL
+@property (nonatomic, strong) NSString *imgUrl;
+
+@end
+
+@interface CommentQuestionDetail : BaseModel
+
+@property (nonatomic, strong) CommentQuestionDetailContentModel *data;
+
+@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

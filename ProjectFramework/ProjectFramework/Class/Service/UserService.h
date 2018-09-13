@@ -163,17 +163,50 @@
 
 
 
+/**
+ 获取banner
+
+ @param city 城市ID 城市id：查询指定城市下的banner；默认为空，查询所有banner数据；
+ @param delegate 代理
+ */
+- (void)getBannerWithCityID:(NSString *)city delegate:(id)delegate;
+
+
+/**
+ 公告/资讯列表
+ @param listType 类型 0=热门资讯；1=系统公告
+ @param lastId 最后一次查询的最后一笔数据的id；默认为空查询最新数据 查询条数，默认等于5
+ @param delegate
+ */
+- (void)getNewList:(NewListType)listType lastId:(NSString *)lastId delegate:(id)delegate;
+
+
+/**
+ 获得新闻详情
+
+ @param newsID 新闻ID
+ @param delegate 代理
+ */
+- (void)getNewDetail:(NSString *)newsID delegate:(id)delegate;
 
 
 
+/**
+ 常见问题列表
+
+ @param lastID 最后一个ID
+ @param delegate 代理
+ */
+- (void)getCommentQuestionList:(NSString *)lastID delegate:(id)delegate;
 
 
+/**
+ 问题详情
 
-
-
-
-
-
+ @param lastID ID
+ @param delegate 代理
+ */
+- (void)getCommentQuestionDetail:(NSString *)faqId delegate:(id)delegate;
 
 
 
